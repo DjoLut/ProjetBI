@@ -1,0 +1,198 @@
+DROP TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]
+GO
+DROP TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimCustomer]
+GO
+DROP TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimDate]
+GO
+DROP TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimEmployee]
+GO
+DROP TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimProduct]
+GO
+DROP TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimShipper]
+GO
+DROP TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimSupplier]
+GO
+
+CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimCustomer](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Origin] [nvarchar](40),
+	[CustomerID] [nchar](5) NOT NULL,
+	[CompanyName] [nvarchar](40) NOT NULL,
+	[ContactName] [nvarchar](50) NOT NULL,
+	[Phone] [nvarchar](20) NOT NULL,
+	[Adresse] [nvarchar](60) NOT NULL,
+	[City] [nvarchar](15) NOT NULL,
+	[Region_EN] [nvarchar](15),
+	[Region_FR] [nvarchar](15) NOT NULL,
+	[PostalCode] [nvarchar](10) NOT NULL,
+	[Country_EN] [nvarchar](15),
+	[Country_FR] [nvarchar](15) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimDate](
+	[Id] [int] NOT NULL,
+	[DayNumberOfWeek] [int] NOT NULL,
+	[DayNameOfWeek_EN] [nvarchar](30) NOT NULL,
+	[DayNameOfWeek_FR] [nvarchar](30) NOT NULL,
+	[DayNumberOfMonth] [int] NOT NULL,
+	[DayNumberOfYear] [int] NOT NULL,
+	[WeekNumberOfYear] [int] NOT NULL,
+	[MonthName_EN] [nvarchar](30) NOT NULL,
+	[MonthName_FR] [nvarchar](30) NOT NULL,
+	[MonthNumberOfYear] [int] NOT NULL,
+	[Year_] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimEmployee](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Origin] [nvarchar](40),
+	[EmployeeId] [int] NOT NULL,
+	[Lastname] [nvarchar](20) NOT NULL,
+	[Firstname] [nvarchar](10) NOT NULL,
+	[BirthDate] [date] NOT NULL,
+	[HireDate] [date] NOT NULL,
+	[HomePhone] [nvarchar](20) NOT NULL,
+	[Address_] [nvarchar](60) NOT NULL,
+	[City] [nvarchar](15) NOT NULL,
+	[Region_EN] [nvarchar](15),
+	[Region_FR] [nvarchar](15) NOT NULL,
+	[PostalCode] [nvarchar](10) NOT NULL,
+	[Country_EN] [nvarchar](15),
+	[Country_FR] [nvarchar](15) NOT NULL,
+	[Extension] [nvarchar](4) NOT NULL,
+	[ReportsTo] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimProduct](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Origin] [nvarchar](40),
+	[ProductIDBase] [int] NOT NULL,
+	[ProductName_EN] [nvarchar](40),
+	[ProductName_FR] [nvarchar](40) NOT NULL,
+	[UnitPrice] [money] NOT NULL,
+	[ReorderLevel] [int] NOT NULL,
+	[Discontinued] [bit] NOT NULL,
+	[CategoryName_EN] [nvarchar](15),
+	[CategoryName_FR] [nvarchar](15) NOT NULL,
+	[SuppliersCompanyName] [nvarchar](40) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimShipper](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Origin] [nvarchar](40),
+	[ShipperIDBase] [int] NOT NULL,
+	[CompanyName] [nvarchar](60) NOT NULL,
+	[Phone] [nvarchar](20) NOT NULL,
+	[ShipFreight] [money] NOT NULL,
+	[ShipName] [nvarchar](40) NOT NULL,
+	[ShipAdress] [nvarchar](60) NOT NULL,
+	[ShipCity] [nvarchar](15) NOT NULL,
+	[ShipRegion_EN] [nvarchar](15),
+	[ShipRegion_FR] [nvarchar](15) NOT NULL,
+	[ShipPostalCode] [nvarchar](10) NOT NULL,
+	[ShipCountry_EN] [nvarchar](15),
+	[ShipCountry_FR] [nvarchar](15) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimSupplier](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Origin] [nvarchar](40),
+	[SupplierId] [int] NOT NULL,
+	[CompanyName] [nvarchar](40) NOT NULL,
+	[Address] [nvarchar](60) NOT NULL,
+	[City] [nvarchar](15) NOT NULL,
+	[Region_EN] [nvarchar](15),
+	[Region_FR] [nvarchar](15) NOT NULL,
+	[PostalCode] [nvarchar](10) NOT NULL,
+	[Country_EN] [nvarchar](15),
+	[Country_FR] [nvarchar](15) NOT NULL,
+	[Phone] [nvarchar](40) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Origin] [nvarchar](40),
+	[OrderIDBase] [int] NOT NULL,
+	[TotalAmount] [money] NOT NULL,
+	[UnitPrice] [money] NOT NULL,
+	[Quantity] [int] NOT NULL,
+	[IsOnline] [bit] NOT NULL,
+	[Discount] [float] NOT NULL,
+	[DimRequiredDate] [int] NULL,
+	[DimShippedDate] [int] NULL,
+	[DimCustomerId] [int] NULL,
+	[DimOrderDate] [int] NOT NULL,
+	[DimEmployeeId] [int] NULL,
+	[DimProductId] [int] NULL,
+	[DimShipperId] [int] NULL,
+	[DimSupplierId] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]  WITH CHECK ADD FOREIGN KEY([DimCustomerId])
+REFERENCES [1920_ProjetBI_etu32766_etu25417].[dbo].[DimCustomer] ([Id])
+GO
+
+ALTER TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]  WITH CHECK ADD FOREIGN KEY([DimEmployeeId])
+REFERENCES [1920_ProjetBI_etu32766_etu25417].[dbo].[DimEmployee] ([Id])
+GO
+
+ALTER TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]  WITH CHECK ADD FOREIGN KEY([DimOrderDate])
+REFERENCES [1920_ProjetBI_etu32766_etu25417].[dbo].[DimDate] ([Id])
+GO
+
+ALTER TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]  WITH CHECK ADD FOREIGN KEY([DimProductId])
+REFERENCES [1920_ProjetBI_etu32766_etu25417].[dbo].[DimProduct] ([Id])
+GO
+
+ALTER TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]  WITH CHECK ADD FOREIGN KEY([DimRequiredDate])
+REFERENCES [1920_ProjetBI_etu32766_etu25417].[dbo].[DimDate] ([Id])
+GO
+
+ALTER TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]  WITH CHECK ADD FOREIGN KEY([DimShippedDate])
+REFERENCES [1920_ProjetBI_etu32766_etu25417].[dbo].[DimDate] ([Id])
+GO
+
+ALTER TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]  WITH CHECK ADD FOREIGN KEY([DimShipperId])
+REFERENCES [1920_ProjetBI_etu32766_etu25417].[dbo].[DimShipper] ([Id])
+GO
+
+ALTER TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]  WITH CHECK ADD FOREIGN KEY([DimSupplierId])
+REFERENCES [1920_ProjetBI_etu32766_etu25417].[dbo].[DimSupplier] ([Id])
+GO
+
+

@@ -7,15 +7,133 @@
   DTS:CreatorName="DESKTOP-7FSB4E3\Lutgen"
   DTS:DTSID="{A28C4EE5-9D4B-45DD-A3BA-5179B4246D9C}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.123"
+  DTS:LastModifiedProductVersion="15.0.1301.433"
   DTS:LocaleID="1036"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{CFE3BA92-E7AB-430C-BA54-2134794E23C5}">
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{6A0A7516-D5E6-470F-BF7B-04F348A77F5C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Fichier erreurs Product]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Fichier erreurs Product"
+      DTS:DTSID="{386C2080-42A7-4821-A782-C4C1B714EDB8}"
+      DTS:ObjectName="Fichier erreurs Product">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="Fichier erreurs Product">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductID"
+              DTS:DTSID="{C6D2F031-3646-403F-B9D4-D629A108383D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="40"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductName"
+              DTS:DTSID="{6BF123E3-9ABF-42B0-A9DE-880C4BFF8115}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SupplierID"
+              DTS:DTSID="{E5E656BF-A47A-4828-96AE-0834EA4DBC78}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CategoryID"
+              DTS:DTSID="{3256F840-0582-4AA3-916C-EBA89597B588}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="QuantityPerUnit"
+              DTS:DTSID="{02EEB9B1-7451-4DC8-B510-B88D94BD219C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitPrice"
+              DTS:DTSID="{38D413DD-0BA4-4EE6-8B88-F86113CFEB2E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitsInStock"
+              DTS:DTSID="{E29A967A-BA0E-40A2-9FEF-47C6B79C3F3F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitsOnOrder"
+              DTS:DTSID="{2A1B8907-F656-4831-AA5E-FB1BC3D20DC1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ReorderLevel"
+              DTS:DTSID="{C8FFF281-7183-4038-89B5-41183AA8C56F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="11"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Discontinued"
+              DTS:DTSID="{B8EF8078-E1B2-4C8A-B508-21B4D5F9C2ED}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{E3489524-D582-4CC6-9B6D-2962A0DA942D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{F130B7A6-4541-4ED5-859B-7DE13EF5D4EF}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[vm-sql2.iesn.be.1920_ProjetBI_etu32766_etu25417.1920_EtuGenerique]"
       DTS:CreationName="OLEDB"
@@ -23,11 +141,11 @@
       DTS:ObjectName="vm-sql2.iesn.be.1920_ProjetBI_etu32766_etu25417.1920_EtuGenerique">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=1920_ProjetBI_etu32766_etu25417;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=1920_ProjetBI_etu32766_etu25417;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{FE821338-AA3A-4544-A2EC-2884144CA24B}vm-sql2.iesn.be.1920_ProjetBI_etu32766_etu25417.1920_EtuGenerique;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAiEP5HKC/g0qP51YbTtyXSAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACGufzgE4cT5nAOXNpQeJDuTRFTNuDA22IN8P+2Ki/XHgAAAAAOgAAAAAIAACAAAABeJHOIZvhsuaE5oO5j95Z6Sv7FIEXFR/QegdWLFdg8qCAAAADnommOuD61sZpuhi0+cZD9HXfJqo3Ur3yBy+pgmZDtakAAAAAsQQzyEhanGmzZjNYtUYWgri4PkGU4imxp714MRnCX5v8jRfia6LEe6jSiJNa/B6WUicnC+7u7iZrRhY1VzYA7</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6QAcb6fKG0+Y4pdwZKxTKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAJOG3gsNc4MAdE+awPm5nw1Rs61ukVNu5XWSniYpZ5WwAAAAAOgAAAAAIAACAAAAB97kEANJ1ezbL6IswJQ6S5xcuj8wjX3anHeIDkH6pgNiAAAADj/DkFHEW90dTBdDS+rptZ9lUSiUSxClJIwGTJkCq/50AAAADBerFc/mdNaOSjh+dksU05koe0IUM/8dGJpbOjtiQN1icyNWRjwf0lG6DIeYsY4seuuRRbpH/ccUa0s6gz/ZYw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -38,11 +156,11 @@
       DTS:ObjectName="vm-sql2.iesn.be.Foodies997.1920_EtuGenerique">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package-{5667FD03-CD87-4C78-8149-7E1BF48B83FD}vm-sql2.iesn.be.Foodies997.1920_EtuGenerique;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{5667FD03-CD87-4C78-8149-7E1BF48B83FD}vm-sql2.iesn.be.Foodies997.1920_EtuGenerique;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAiEP5HKC/g0qP51YbTtyXSAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADuXKDceTM89pdP89BA6z2ef15Hm7T1b1j9ERxxTQuGowAAAAAOgAAAAAIAACAAAAAXDVpzr+gPjqXK//2761LlNfltNqBEh06F6Qt1G6pNnyAAAAA8cUHsx7n0F2nMoHLAnYwWx/H/CBdI7kphstNs6NL7O0AAAACj7QDt6EaF/GV+EanwBT609bgynf7Q+dRJ6Sn18rppXTf4I9hTmTBg4Z4ucwFuPq+LD/W5riB3O6i2aI/4QT/u</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6QAcb6fKG0+Y4pdwZKxTKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAqTWntkwWIAi5A3bl5dejRhsYmyTb4EgL1DC6UYeAgZQAAAAAOgAAAAAIAACAAAACi8V+SSsFT4Iefbaqfp/GFGqBYoIPEWg9pBduokZ4K1CAAAADaHPMC3Z7dKHyfjpoOkZuWiwHPzmOlwA4EoOHvjtkNo0AAAACeN6iqny4XjWzlDHsOzL6Ufn7XItKREqCgIVB8X28mfT4W1pmsg3R3oarl9vanwx+9/obRKT4MfFmOjGPAU05A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -53,41 +171,114 @@
       DTS:ObjectName="vm-sql2.iesn.be.Foodies997.1920_EtuGenerique1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLNCLI11.1;Persist Security Info=True;Application Intent=READWRITE;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Intent=READWRITE;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAiEP5HKC/g0qP51YbTtyXSAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADUDIlpo9Wbj/sD1uVTNbBJ8hwa5i1iUhjAdHbtecCTxAAAAAAOgAAAAAIAACAAAAA6HQaLheKIFfSB/G1nMR6m1bSrB2J3nRbNDAefhxFBsiAAAADWErIUkfy/RUrGxgC4RFGQxSzOkncPnKxxw5kyjG73ZEAAAADUMHTZv+TdBataTC6PEhq0Vq0yTzw89uFPZMMqASYVMsmmQidzQwk5iETooC4KO05cDWauySVNBpUH4UZ8vR0e</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6QAcb6fKG0+Y4pdwZKxTKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAzeUfeqEjv0aKlR9szzVQvIu5oZn5JZIroiIKJD6hLkgAAAAAOgAAAAAIAACAAAADdhSIoZ7FExL7RjAywwPpnxYx0QTPRVQotlBiN+AbJiCAAAABi6tyqy7jId7COucNCngi4Wshx3A001HJU0nKmirQC7kAAAAA2FICI4nUbV8QkrGJOWV5YG5GpRB8pt/hiRsxp+V1lC4P36VDeu1jo3syM0puYrY/bf0KBV5U+Q9X1rpjySmrp</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{5C81AB0A-68EE-4A2B-A6BB-D36FA52522C5}"
+      DTS:ObjectName="RemplirDimProduct_RechercheCatGorieSqlCommand">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">select * from [dbo].[Product]</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{400600DB-7FF2-4326-B43F-6D9F2124EF64}"
+      DTS:ObjectName="RemplirDimProduct_RechercheCatGorieSqlCommand1">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">select * from [dbo].[Categories]</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{D6B962B1-57FC-475C-AE8D-76CEF7A8FD3F}"
+      DTS:ObjectName="RemplirDimProduct_RechercheCatGorieSqlCommand2">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">select * from [dbo].[Categories]</DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Tâche d'exécution de requêtes SQL Foodies997"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Récupération des données de Foodies997"
-      DTS:DTSID="{EC3C9ECE-933E-4F4C-B8BE-D79BD1A272DD}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:refId="Package\Importation dans FactSale"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{F3BB2D49-C7AA-4FC9-A5B9-43D04F310FA6}"
+      DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Tâche d'exécution de requêtes SQL Foodies997"
-      DTS:ThreadHint="0">
+      DTS:ObjectName="Importation dans FactSale"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{5667FD03-CD87-4C78-8149-7E1BF48B83FD}"
-          SQLTask:SqlStatementSource="USE [1920_ProjetBI_etu32766_etu25417]&#xA;GO&#xA;&#xA;BEGIN TRANSACTION;&#xA;DELETE FROM [dbo].[FactSale];&#xA;DELETE FROM [dbo].[DimCustomer];&#xA;DELETE FROM [dbo].[DimDate];&#xA;DELETE FROM [dbo].[DimEmployee];&#xA;DELETE FROM [dbo].[DimProduct];&#xA;DELETE FROM [dbo].[DimShipper];&#xA;DELETE FROM [dbo].[DimSupplier];&#xA;GO&#xA;COMMIT;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+        <pipeline
+          version="1" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Tâche de flux de données"
+      DTS:refId="Package\Remplir DimCustomer"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tâche de flux de données"
-      DTS:DTSID="{D882B623-7A2E-4C8C-A4AA-E24DB54FAE04}"
+      DTS:DTSID="{080F73F2-A16E-4555-9DFE-19BC21810265}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Tâche de flux de données"
+      DTS:ObjectName="Remplir DimCustomer"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Remplir DimDate"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{0A25815E-8306-4D36-B954-EF59090F8169}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Remplir DimDate"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Remplir DimEmployee"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{C60F419A-C8E5-4728-B706-68DB80E3C260}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Remplir DimEmployee"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Remplir DimProduct"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{A919D184-6598-4DA6-9629-0D735B3CF613}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Remplir DimProduct"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -95,154 +286,11 @@
           version="1">
           <components>
             <component
-              refId="Package\Tâche de flux de données\Composant Script"
-              componentClassID="Microsoft.ManagedComponentHost"
-              contactInfo="Inclut et exécute un code de script personnalisé. Par exemple, appliquez une règle d'entreprise qui limite la plage des valeurs valides dans une colonne « revenus » ou ajoutez des valeurs dans deux colonnes et calculez la moyenne de la somme.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;11"
-              description="Inclut et exécute un code de script personnalisé. Par exemple, appliquez une règle d'entreprise qui limite la plage des valeurs valides dans une colonne « revenus » ou ajoutez des valeurs dans deux colonnes et calculez la moyenne de la somme."
-              name="Composant Script"
-              version="11">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Stocke le code source du composant"
-                  isArray="true"
-                  name="SourceCode"
-                  state="cdata">
-                  <arrayElements
-                    arrayElementCount="0" />
-                </property>
-                <property
-                  dataType="System.String"
-                  description="Stocke la représentation binaire du composant"
-                  isArray="true"
-                  name="BinaryCode"
-                  state="cdata">
-                  <arrayElements
-                    arrayElementCount="0" />
-                </property>
-                <property
-                  dataType="System.String"
-                  description="Spécifie le nom du projet Microsoft Visual Studio Tools for Applications. Les noms des projets doivent être uniques dans un package."
-                  name="VSTAProjectName"
-                  typeConverter="NOTBROWSABLE">SC_1d4e4503586d4160ab53d777aefe643d</property>
-                <property
-                  dataType="System.String"
-                  description="Spécifie le langage de programmation utilisé par le script."
-                  name="ScriptLanguage"
-                  typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
-                <property
-                  dataType="System.String"
-                  description="Spécifie une liste séparée par des virgules de variables en lecture seule."
-                  name="ReadOnlyVariables"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
-                <property
-                  dataType="System.String"
-                  description="Spécifie une liste séparée par des virgules de variables en lecture/écriture."
-                  name="ReadWriteVariables"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
-                <property
-                  dataType="System.String"
-                  description="Liste des points d'arrêt présents dans le script."
-                  isArray="true"
-                  name="BreakpointCollection"
-                  typeConverter="NOTBROWSABLE">
-                  <arrayElements
-                    arrayElementCount="0" />
-                </property>
-                <property
-                  dataType="System.String"
-                  description="Somme de contrôle pour faire correspondre les métadonnées de composant avec les codes compilés."
-                  name="MetadataChecksum140"
-                  typeConverter="NOTBROWSABLE"></property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0]"
-                  hasSideEffects="true"
-                  name="Entrée 0">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[CustomerID]"
-                      cachedDataType="wstr"
-                      cachedLength="5"
-                      cachedName="CustomerID"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[CustomerID]" />
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[CompanyName]"
-                      cachedDataType="wstr"
-                      cachedLength="40"
-                      cachedName="CompanyName"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[CompanyName]" />
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[ContactName]"
-                      cachedDataType="wstr"
-                      cachedLength="30"
-                      cachedName="ContactName"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[ContactName]" />
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[ContactTitle]"
-                      cachedDataType="wstr"
-                      cachedLength="30"
-                      cachedName="ContactTitle"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[ContactTitle]" />
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[Address]"
-                      cachedDataType="wstr"
-                      cachedLength="60"
-                      cachedName="Address"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Address]" />
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[City]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="City"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[City]" />
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[Region]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="Region"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Region]" />
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[PostalCode]"
-                      cachedDataType="wstr"
-                      cachedLength="10"
-                      cachedName="PostalCode"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[PostalCode]" />
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[Country]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="Country"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Country]" />
-                    <inputColumn
-                      refId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0].Columns[Phone]"
-                      cachedDataType="wstr"
-                      cachedLength="24"
-                      cachedName="Phone"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Phone]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Tâche de flux de données\Composant Script.Outputs[Sortie 0]"
-                  name="Sortie 0"
-                  synchronousInputId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0]">
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer"
+              refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
               description="Destination OLE DB"
-              name="Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer"
+              name="Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct"
               usesDispositions="true"
               version="4">
               <properties>
@@ -253,7 +301,7 @@
                 <property
                   dataType="System.String"
                   description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
-                  name="OpenRowset"></property>
+                  name="OpenRowset">[dbo].[DimProduct]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
@@ -295,7 +343,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Connections[OleDbConnection]"
+                  refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[vm-sql2.iesn.be.1920_ProjetBI_etu32766_etu25417.1920_EtuGenerique]"
                   connectionManagerRefId="Package.ConnectionManagers[vm-sql2.iesn.be.1920_ProjetBI_etu32766_etu25417.1920_EtuGenerique]"
                   description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
@@ -303,33 +351,131 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Inputs[Entrée de destination OLE DB]"
+                  refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB]"
                   errorOrTruncationOperation="Insérer"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].Columns[ReorderLevel]"
+                      cachedDataType="i2"
+                      cachedName="ReorderLevel"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[ReorderLevel]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ReorderLevel]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].Columns[Discontinued]"
+                      cachedDataType="bool"
+                      cachedName="Discontinued"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[Discontinued]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[Discontinued]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductIDBase]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="ProductName"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductName_FR]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductName]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].Columns[CategoryName]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="CategoryName"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[CategoryName_FR]"
+                      lineageId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie de recherche avec correspondance].Columns[CategoryName]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].Columns[CompanyName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="CompanyName"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[SuppliersCompanyName]"
+                      lineageId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie de recherche avec correspondance].Columns[CompanyName]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].Columns[UnitPrice]"
+                      cachedDataType="cy"
+                      cachedName="UnitPrice"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitPrice]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitPrice]" />
+                  </inputColumns>
                   <externalMetadataColumns
-                    isUsed="True" />
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[Id]"
+                      dataType="i4"
+                      name="Id" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[Origin]"
+                      dataType="wstr"
+                      length="40"
+                      name="Origin" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductIDBase]"
+                      dataType="i4"
+                      name="ProductIDBase" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductName_EN]"
+                      dataType="wstr"
+                      length="40"
+                      name="ProductName_EN" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductName_FR]"
+                      dataType="wstr"
+                      length="40"
+                      name="ProductName_FR" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitPrice]"
+                      dataType="cy"
+                      name="UnitPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[ReorderLevel]"
+                      dataType="i4"
+                      name="ReorderLevel" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[Discontinued]"
+                      dataType="bool"
+                      name="Discontinued" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[CategoryName_EN]"
+                      dataType="wstr"
+                      length="15"
+                      name="CategoryName_EN" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[CategoryName_FR]"
+                      dataType="wstr"
+                      length="15"
+                      name="CategoryName_FR" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB].ExternalColumns[SuppliersCompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      name="SuppliersCompanyName" />
+                  </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Outputs[Sortie d'erreur de destination OLE DB]"
+                  refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Outputs[Sortie d'erreur de destination OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Sortie d'erreur de destination OLE DB"
-                  synchronousInputId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Inputs[Entrée de destination OLE DB]">
+                  synchronousInputId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -338,10 +484,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Tâche de flux de données\Destination de fichier plat"
+              refId="Package\Remplir DimProduct\Destination de fichier plat"
               componentClassID="Microsoft.FlatFileDestination"
               contactInfo="Destination de fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
               description="Destination de fichier plat"
+              localeId="1036"
               name="Destination de fichier plat">
               <properties>
                 <property
@@ -349,10 +496,10 @@
                   description="Spécifie si les données remplaceront ou seront ajoutées au fichier de destination."
                   name="Overwrite">true</property>
                 <property
-                  dataType="System.String"
+                  dataType="System.Null"
                   description="Spécifie le texte à enregistrer sur le fichier de destination avant d'enregistrer des données."
                   expressionType="Notify"
-                  name="Header"></property>
+                  name="Header" />
                 <property
                   dataType="System.Boolean"
                   description="Quand le qualificateur de texte est activé, spécifie si le qualificateur de texte dans les données écrites dans le fichier de destination va être échappé ou non."
@@ -360,25 +507,478 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Tâche de flux de données\Destination de fichier plat.Connections[FlatFileConnection]"
+                  refId="Package\Remplir DimProduct\Destination de fichier plat.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Fichier erreurs Product]"
+                  connectionManagerRefId="Package.ConnectionManagers[Fichier erreurs Product]"
                   name="FlatFileConnection" />
               </connections>
               <inputs>
                 <input
-                  refId="Package\Tâche de flux de données\Destination de fichier plat.Inputs[Entrée de destination de fichier plat]"
+                  refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat]"
                   hasSideEffects="true"
                   name="Entrée de destination de fichier plat">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ProductID]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="ProductName"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ProductName]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductName]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[SupplierID]"
+                      cachedDataType="i4"
+                      cachedName="SupplierID"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[SupplierID]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[SupplierID]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[CategoryID]"
+                      cachedDataType="i4"
+                      cachedName="CategoryID"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CategoryID]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[CategoryID]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[QuantityPerUnit]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="QuantityPerUnit"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[QuantityPerUnit]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[QuantityPerUnit]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[UnitPrice]"
+                      cachedDataType="cy"
+                      cachedName="UnitPrice"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[UnitPrice]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitPrice]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[UnitsInStock]"
+                      cachedDataType="i2"
+                      cachedName="UnitsInStock"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[UnitsInStock]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsInStock]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[UnitsOnOrder]"
+                      cachedDataType="i2"
+                      cachedName="UnitsOnOrder"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[UnitsOnOrder]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsOnOrder]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[ReorderLevel]"
+                      cachedDataType="i2"
+                      cachedName="ReorderLevel"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ReorderLevel]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ReorderLevel]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[Discontinued]"
+                      cachedDataType="bool"
+                      cachedName="Discontinued"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[Discontinued]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[Discontinued]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ErrorCode]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorColumn]" />
+                  </inputColumns>
                   <externalMetadataColumns
-                    isUsed="True" />
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ProductName]"
+                      dataType="wstr"
+                      length="40"
+                      name="ProductName" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[SupplierID]"
+                      dataType="i4"
+                      name="SupplierID" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[CategoryID]"
+                      dataType="i4"
+                      name="CategoryID" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[QuantityPerUnit]"
+                      dataType="wstr"
+                      length="20"
+                      name="QuantityPerUnit" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[UnitPrice]"
+                      dataType="cy"
+                      name="UnitPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[UnitsInStock]"
+                      dataType="i2"
+                      name="UnitsInStock" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[UnitsOnOrder]"
+                      dataType="i2"
+                      name="UnitsOnOrder" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ReorderLevel]"
+                      dataType="i2"
+                      name="ReorderLevel" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[Discontinued]"
+                      dataType="bool"
+                      name="Discontinued" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                  </externalMetadataColumns>
                 </input>
               </inputs>
             </component>
             <component
-              refId="Package\Tâche de flux de données\Source Foodies997 - Customer"
+              refId="Package\Remplir DimProduct\Recherche Catégorie"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
+              description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
+              name="Recherche Catégorie"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Spécifie l'instruction SQL qui génère la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Categories]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Categories]) [refTable]
+where [refTable].[CategoryID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de connexion utilisé pour accéder au dataset de référence."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de cache de la table de correspondance."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie comment la transformation de recherche gère les lignes sans entrées correspondantes dans le jeu de données de référence."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le pourcentage du cache alloué aux lignes sans entrées correspondantes dans le dataset de référence."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 32 bits."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 64 bits."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indique si les métadonnées sont à référencer en format XML."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="CategoryID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CategoryName" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Description" dataType="DT_NTEXT" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Picture" dataType="DT_IMAGE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Spécifie la liste d'identificateurs de lignage se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
+                  name="ParameterMap">#{Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[CategoryID]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Détermine si les clés dupliquées dans les données de référence doivent être traitées en tant qu'erreurs lorsque le mode Cache complet est utilisé."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Remplir DimProduct\Recherche Catégorie.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[vm-sql2.iesn.be.Foodies997.1920_EtuGenerique]"
+                  connectionManagerRefId="Package.ConnectionManagers[vm-sql2.iesn.be.Foodies997.1920_EtuGenerique]"
+                  description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Remplir DimProduct\Recherche Catégorie.Inputs[Entrée de recherche]"
+                  name="Entrée de recherche">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Recherche Catégorie.Inputs[Entrée de recherche].Columns[CategoryID]"
+                      cachedDataType="i4"
+                      cachedName="CategoryID"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[CategoryID]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">CategoryID</property>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">CategoryID</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie de recherche avec correspondance]"
+                  errorOrTruncationOperation="Recherche"
+                  errorRowDisposition="RedirectRow"
+                  exclusionGroup="1"
+                  name="Sortie de recherche avec correspondance"
+                  synchronousInputId="Package\Remplir DimProduct\Recherche Catégorie.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie de recherche avec correspondance].Columns[CategoryName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      length="15"
+                      lineageId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie de recherche avec correspondance].Columns[CategoryName]"
+                      name="CategoryName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">CategoryName</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie de recherche sans correspondance]"
+                  description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
+                  exclusionGroup="1"
+                  name="Sortie de recherche sans correspondance"
+                  synchronousInputId="Package\Remplir DimProduct\Recherche Catégorie.Inputs[Entrée de recherche]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie d'erreur de recherche]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de recherche"
+                  synchronousInputId="Package\Remplir DimProduct\Recherche Catégorie.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Remplir DimProduct\Recherche Supplier"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Recherche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;6"
+              description="Joint des colonnes supplémentaires au flux de données en recherchant des valeurs dans une table. Par exemple, joignez la colonne 'id employé' à la table des employés afin d'obtenir la 'date d'embauche' et le 'nom de l'employé'. Nous recommandons cette transformation lorsque la table de recherche peut être stockée en mémoire."
+              name="Recherche Supplier"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Spécifie l'instruction SQL qui génère la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Suppliers]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie une instruction SQL qui utilise des paramètres pour générer la table de correspondance."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Suppliers]) [refTable]
+where [refTable].[SupplierID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de connexion utilisé pour accéder au dataset de référence."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le type de cache de la table de correspondance."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie comment la transformation de recherche gère les lignes sans entrées correspondantes dans le jeu de données de référence."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le pourcentage du cache alloué aux lignes sans entrées correspondantes dans le dataset de référence."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 32 bits."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Utilisation maximale de la mémoire pour le cache de référence sur une plateforme 64 bits."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indique si les métadonnées sont à référencer en format XML."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="SupplierID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CompanyName" dataType="DT_WSTR" length="40" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ContactName" dataType="DT_WSTR" length="30" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ContactTitle" dataType="DT_WSTR" length="30" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Address" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="City" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Region" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="PostalCode" dataType="DT_WSTR" length="10" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Country" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Phone" dataType="DT_WSTR" length="24" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Fax" dataType="DT_WSTR" length="24" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="HomePage" dataType="DT_NTEXT" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Spécifie la liste d'identificateurs de lignage se mappant aux paramètres utilisés dans la propriété SQLCommand par l'instruction SQL. Les entrées dans la liste sont séparées par des points-virgules."
+                  name="ParameterMap">#{Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[SupplierID]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Détermine si les clés dupliquées dans les données de référence doivent être traitées en tant qu'erreurs lorsque le mode Cache complet est utilisé."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Remplir DimProduct\Recherche Supplier.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[vm-sql2.iesn.be.Foodies997.1920_EtuGenerique]"
+                  connectionManagerRefId="Package.ConnectionManagers[vm-sql2.iesn.be.Foodies997.1920_EtuGenerique]"
+                  description="Gestionnaire de connexions utilisé pour accéder aux données de correspondance."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Remplir DimProduct\Recherche Supplier.Inputs[Entrée de recherche]"
+                  name="Entrée de recherche">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Recherche Supplier.Inputs[Entrée de recherche].Columns[SupplierID]"
+                      cachedDataType="i4"
+                      cachedName="SupplierID"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[SupplierID]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence sur laquelle une colonne se lie."
+                          name="JoinToReferenceColumn">SupplierID</property>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">SupplierID</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie de recherche avec correspondance]"
+                  errorOrTruncationOperation="Recherche"
+                  errorRowDisposition="RedirectRow"
+                  exclusionGroup="1"
+                  name="Sortie de recherche avec correspondance"
+                  synchronousInputId="Package\Remplir DimProduct\Recherche Supplier.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie de recherche avec correspondance].Columns[CompanyName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Copie de colonnes"
+                      length="40"
+                      lineageId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie de recherche avec correspondance].Columns[CompanyName]"
+                      name="CompanyName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Spécifie la colonne de la table de référence à partir de laquelle une colonne est copiée."
+                          name="CopyFromReferenceColumn">CompanyName</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie de recherche sans correspondance]"
+                  description="Sortie de recherche gérant les lignes sans entrées correspondantes dans le dataset de référence. Utilisez cette sortie lorsque la propriété NoMatchBehavior a la valeur « Envoyez les lignes sans entrées correspondantes dans la sortie sans correspondance »."
+                  exclusionGroup="1"
+                  name="Sortie de recherche sans correspondance"
+                  synchronousInputId="Package\Remplir DimProduct\Recherche Supplier.Inputs[Entrée de recherche]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie d'erreur de recherche]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de recherche"
+                  synchronousInputId="Package\Remplir DimProduct\Recherche Supplier.Inputs[Entrée de recherche]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Remplir DimProduct\Source Foodies997 - Product"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
               description="Source OLE DB"
-              name="Source Foodies997 - Customer"
+              name="Source Foodies997 - Product"
               usesDispositions="true"
               version="7">
               <properties>
@@ -389,7 +989,7 @@
                 <property
                   dataType="System.String"
                   description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
-                  name="OpenRowset">[dbo].[Customers]</property>
+                  name="OpenRowset">[dbo].[Products]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
@@ -423,7 +1023,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Connections[OleDbConnection]"
+                  refId="Package\Remplir DimProduct\Source Foodies997 - Product.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[vm-sql2.iesn.be.Foodies997.1920_EtuGenerique]"
                   connectionManagerRefId="Package.ConnectionManagers[vm-sql2.iesn.be.Foodies997.1920_EtuGenerique]"
                   description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
@@ -431,262 +1031,802 @@
               </connections>
               <outputs>
                 <output
-                  refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB]"
+                  refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB]"
                   name="Sortie de source OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[CustomerID]"
-                      dataType="wstr"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductID]"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[CustomerID]"
-                      length="5"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[CustomerID]"
-                      name="CustomerID"
+                      errorRowDisposition="RedirectRow"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[ProductID]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductID]"
+                      name="ProductID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[CompanyName]"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductName]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[CompanyName]"
+                      errorRowDisposition="RedirectRow"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[ProductName]"
                       length="40"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[CompanyName]"
-                      name="CompanyName"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductName]"
+                      name="ProductName"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[ContactName]"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[SupplierID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="RedirectRow"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[SupplierID]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[SupplierID]"
+                      name="SupplierID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[CategoryID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="RedirectRow"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[CategoryID]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[CategoryID]"
+                      name="CategoryID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitPrice]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[UnitPrice]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitPrice]"
+                      name="UnitPrice"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ReorderLevel]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[ReorderLevel]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ReorderLevel]"
+                      name="ReorderLevel"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[Discontinued]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[Discontinued]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[Discontinued]"
+                      name="Discontinued"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[QuantityPerUnit]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[ContactName]"
-                      length="30"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[ContactName]"
-                      name="ContactName"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[QuantityPerUnit]"
+                      length="20"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[QuantityPerUnit]"
+                      name="QuantityPerUnit"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[ContactTitle]"
-                      dataType="wstr"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitsInStock]"
+                      dataType="i2"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[ContactTitle]"
-                      length="30"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[ContactTitle]"
-                      name="ContactTitle"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[UnitsInStock]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitsInStock]"
+                      name="UnitsInStock"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Address]"
-                      dataType="wstr"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitsOnOrder]"
+                      dataType="i2"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Address]"
-                      length="60"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Address]"
-                      name="Address"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[City]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[City]"
-                      length="15"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[City]"
-                      name="City"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Region]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Region]"
-                      length="15"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Region]"
-                      name="Region"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[PostalCode]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[PostalCode]"
-                      length="10"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[PostalCode]"
-                      name="PostalCode"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Country]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Country]"
-                      length="15"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Country]"
-                      name="Country"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Phone]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Phone]"
-                      length="24"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Phone]"
-                      name="Phone"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Fax]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Fax]"
-                      length="24"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].Columns[Fax]"
-                      name="Fax"
+                      externalMetadataColumnId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[UnitsOnOrder]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitsOnOrder]"
+                      name="UnitsOnOrder"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[CustomerID]"
-                      dataType="wstr"
-                      length="5"
-                      name="CustomerID" />
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[CompanyName]"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[ProductName]"
                       dataType="wstr"
                       length="40"
-                      name="CompanyName" />
+                      name="ProductName" />
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[ContactName]"
-                      dataType="wstr"
-                      length="30"
-                      name="ContactName" />
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[SupplierID]"
+                      dataType="i4"
+                      name="SupplierID" />
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[ContactTitle]"
-                      dataType="wstr"
-                      length="30"
-                      name="ContactTitle" />
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[CategoryID]"
+                      dataType="i4"
+                      name="CategoryID" />
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Address]"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[QuantityPerUnit]"
                       dataType="wstr"
-                      length="60"
-                      name="Address" />
+                      length="20"
+                      name="QuantityPerUnit" />
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[City]"
-                      dataType="wstr"
-                      length="15"
-                      name="City" />
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[UnitPrice]"
+                      dataType="cy"
+                      name="UnitPrice" />
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Region]"
-                      dataType="wstr"
-                      length="15"
-                      name="Region" />
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[UnitsInStock]"
+                      dataType="i2"
+                      name="UnitsInStock" />
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[PostalCode]"
-                      dataType="wstr"
-                      length="10"
-                      name="PostalCode" />
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[UnitsOnOrder]"
+                      dataType="i2"
+                      name="UnitsOnOrder" />
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Country]"
-                      dataType="wstr"
-                      length="15"
-                      name="Country" />
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[ReorderLevel]"
+                      dataType="i2"
+                      name="ReorderLevel" />
                     <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Phone]"
-                      dataType="wstr"
-                      length="24"
-                      name="Phone" />
-                    <externalMetadataColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB].ExternalColumns[Fax]"
-                      dataType="wstr"
-                      length="24"
-                      name="Fax" />
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].ExternalColumns[Discontinued]"
+                      dataType="bool"
+                      name="Discontinued" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB]"
+                  refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB]"
                   isErrorOut="true"
                   name="Sortie d'erreur de source OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[CustomerID]"
-                      dataType="wstr"
-                      length="5"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[CustomerID]"
-                      name="CustomerID" />
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductID]"
+                      name="ProductID" />
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[CompanyName]"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductName]"
                       dataType="wstr"
                       length="40"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[CompanyName]"
-                      name="CompanyName" />
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductName]"
+                      name="ProductName" />
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[ContactName]"
-                      dataType="wstr"
-                      length="30"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[ContactName]"
-                      name="ContactName" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[ContactTitle]"
-                      dataType="wstr"
-                      length="30"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[ContactTitle]"
-                      name="ContactTitle" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Address]"
-                      dataType="wstr"
-                      length="60"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Address]"
-                      name="Address" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[City]"
-                      dataType="wstr"
-                      length="15"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[City]"
-                      name="City" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Region]"
-                      dataType="wstr"
-                      length="15"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Region]"
-                      name="Region" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[PostalCode]"
-                      dataType="wstr"
-                      length="10"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[PostalCode]"
-                      name="PostalCode" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Country]"
-                      dataType="wstr"
-                      length="15"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Country]"
-                      name="Country" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Phone]"
-                      dataType="wstr"
-                      length="24"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Phone]"
-                      name="Phone" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Fax]"
-                      dataType="wstr"
-                      length="24"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[Fax]"
-                      name="Fax" />
-                    <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[SupplierID]"
                       dataType="i4"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[SupplierID]"
+                      name="SupplierID" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[CategoryID]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[CategoryID]"
+                      name="CategoryID" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[UnitPrice]"
+                      dataType="cy"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[UnitPrice]"
+                      name="UnitPrice" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ReorderLevel]"
+                      dataType="i2"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ReorderLevel]"
+                      name="ReorderLevel" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[Discontinued]"
+                      dataType="bool"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[Discontinued]"
+                      name="Discontinued" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[QuantityPerUnit]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[QuantityPerUnit]"
+                      name="QuantityPerUnit" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[UnitsInStock]"
+                      dataType="i2"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[UnitsInStock]"
+                      name="UnitsInStock" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[UnitsOnOrder]"
+                      dataType="i2"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[UnitsOnOrder]"
+                      name="UnitsOnOrder" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Remplir DimProduct\Unir tout"
+              componentClassID="Microsoft.UnionAll"
+              contactInfo="Unir tout;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Combine des lignes de plusieurs flux de données sans effectuer de tri. Par exemple, rajoutez des lignes à un flux de données après correction des erreurs. Si le tri est important, nous recommandons l'utilisation de la transformation de fusion."
+              name="Unir tout"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1]"
+                  name="Unir tout entrée 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="ProductName"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductName]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[SupplierID]"
+                      cachedDataType="i4"
+                      cachedName="SupplierID"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[SupplierID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[SupplierID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[CategoryID]"
+                      cachedDataType="i4"
+                      cachedName="CategoryID"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[CategoryID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[CategoryID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[QuantityPerUnit]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="QuantityPerUnit"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[QuantityPerUnit]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[QuantityPerUnit]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[UnitPrice]"
+                      cachedDataType="cy"
+                      cachedName="UnitPrice"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[UnitPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[UnitsInStock]"
+                      cachedDataType="i2"
+                      cachedName="UnitsInStock"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[UnitsInStock]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsInStock]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[UnitsOnOrder]"
+                      cachedDataType="i2"
+                      cachedName="UnitsOnOrder"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[UnitsOnOrder]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsOnOrder]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[ReorderLevel]"
+                      cachedDataType="i2"
+                      cachedName="ReorderLevel"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ReorderLevel]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ReorderLevel]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[Discontinued]"
+                      cachedDataType="bool"
+                      cachedName="Discontinued"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[Discontinued]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[Discontinued]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorCode]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorColumn]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1]"
+                  hasSideEffects="true"
+                  name="Entrée Union All 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="ProductName"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductName]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[SupplierID]"
+                      cachedDataType="i4"
+                      cachedName="SupplierID"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[SupplierID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[SupplierID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[CategoryID]"
+                      cachedDataType="i4"
+                      cachedName="CategoryID"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[CategoryID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[CategoryID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[QuantityPerUnit]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="QuantityPerUnit"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[QuantityPerUnit]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[QuantityPerUnit]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[UnitPrice]"
+                      cachedDataType="cy"
+                      cachedName="UnitPrice"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[UnitsInStock]"
+                      cachedDataType="i2"
+                      cachedName="UnitsInStock"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitsInStock]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsInStock]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[UnitsOnOrder]"
+                      cachedDataType="i2"
+                      cachedName="UnitsOnOrder"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitsOnOrder]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsOnOrder]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[ReorderLevel]"
+                      cachedDataType="i2"
+                      cachedName="ReorderLevel"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ReorderLevel]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ReorderLevel]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[Discontinued]"
+                      cachedDataType="bool"
+                      cachedName="Discontinued"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[Discontinued]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[Discontinued]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      lineageId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorCode]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      lineageId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorColumn]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3]"
+                  hasSideEffects="true"
+                  name="Entrée Union All 3">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="ProductName"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ProductName]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductName]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[SupplierID]"
+                      cachedDataType="i4"
+                      cachedName="SupplierID"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[SupplierID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[SupplierID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[CategoryID]"
+                      cachedDataType="i4"
+                      cachedName="CategoryID"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[CategoryID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[CategoryID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[QuantityPerUnit]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="QuantityPerUnit"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[QuantityPerUnit]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[QuantityPerUnit]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[UnitPrice]"
+                      cachedDataType="cy"
+                      cachedName="UnitPrice"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[UnitsInStock]"
+                      cachedDataType="i2"
+                      cachedName="UnitsInStock"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitsInStock]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsInStock]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[UnitsOnOrder]"
+                      cachedDataType="i2"
+                      cachedName="UnitsOnOrder"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[UnitsOnOrder]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsOnOrder]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[ReorderLevel]"
+                      cachedDataType="i2"
+                      cachedName="ReorderLevel"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[ReorderLevel]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ReorderLevel]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[Discontinued]"
+                      cachedDataType="bool"
+                      cachedName="Discontinued"
+                      lineageId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB].Columns[Discontinued]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[Discontinued]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      lineageId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie d'erreur de recherche].Columns[ErrorCode]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorCode]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      lineageId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie d'erreur de recherche].Columns[ErrorColumn]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="ID de lignage de colonne de sortie"
+                          name="OutputColumnLineageID">#{Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorColumn]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 2]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Entrée Union All 2">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1]"
+                  name="Unir tout sortie 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductName]"
+                      dataType="wstr"
+                      length="40"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ProductName]"
+                      name="ProductName" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[SupplierID]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[SupplierID]"
+                      name="SupplierID" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[CategoryID]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[CategoryID]"
+                      name="CategoryID" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[QuantityPerUnit]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[QuantityPerUnit]"
+                      name="QuantityPerUnit" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitPrice]"
+                      dataType="cy"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitPrice]"
+                      name="UnitPrice" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsInStock]"
+                      dataType="i2"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsInStock]"
+                      name="UnitsInStock" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsOnOrder]"
+                      dataType="i2"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[UnitsOnOrder]"
+                      name="UnitsOnOrder" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ReorderLevel]"
+                      dataType="i2"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ReorderLevel]"
+                      name="ReorderLevel" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[Discontinued]"
+                      dataType="bool"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[Discontinued]"
+                      name="Discontinued" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorCode]"
+                      name="ErrorCode" />
+                    <outputColumn
+                      refId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1].Columns[ErrorColumn]"
+                      name="ErrorColumn" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -695,22 +1835,87 @@
           </components>
           <paths>
             <path
-              refId="Package\Tâche de flux de données.Paths[Sortie 0]"
-              endId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Inputs[Entrée de destination OLE DB]"
-              name="Sortie 0"
-              startId="Package\Tâche de flux de données\Composant Script.Outputs[Sortie 0]" />
+              refId="Package\Remplir DimProduct.Paths[Sortie d'erreur de recherche]"
+              endId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 3]"
+              name="Sortie d'erreur de recherche"
+              startId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie d'erreur de recherche]" />
             <path
-              refId="Package\Tâche de flux de données.Paths[Sortie d'erreur de destination OLE DB]"
-              endId="Package\Tâche de flux de données\Destination de fichier plat.Inputs[Entrée de destination de fichier plat]"
-              name="Sortie d'erreur de destination OLE DB"
-              startId="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer.Outputs[Sortie d'erreur de destination OLE DB]" />
+              refId="Package\Remplir DimProduct.Paths[Sortie d'erreur de recherche1]"
+              endId="Package\Remplir DimProduct\Unir tout.Inputs[Entrée Union All 1]"
+              name="Sortie d'erreur de recherche"
+              startId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie d'erreur de recherche]" />
             <path
-              refId="Package\Tâche de flux de données.Paths[Sortie de source OLE DB]"
-              endId="Package\Tâche de flux de données\Composant Script.Inputs[Entrée 0]"
+              refId="Package\Remplir DimProduct.Paths[Sortie d'erreur de source OLE DB]"
+              endId="Package\Remplir DimProduct\Unir tout.Inputs[Unir tout entrée 1]"
+              name="Sortie d'erreur de source OLE DB"
+              startId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie d'erreur de source OLE DB]" />
+            <path
+              refId="Package\Remplir DimProduct.Paths[Sortie de recherche avec correspondance]"
+              endId="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de recherche avec correspondance"
+              startId="Package\Remplir DimProduct\Recherche Supplier.Outputs[Sortie de recherche avec correspondance]" />
+            <path
+              refId="Package\Remplir DimProduct.Paths[Sortie de recherche avec correspondance1]"
+              endId="Package\Remplir DimProduct\Recherche Supplier.Inputs[Entrée de recherche]"
+              name="Sortie de recherche avec correspondance"
+              startId="Package\Remplir DimProduct\Recherche Catégorie.Outputs[Sortie de recherche avec correspondance]" />
+            <path
+              refId="Package\Remplir DimProduct.Paths[Sortie de source OLE DB]"
+              endId="Package\Remplir DimProduct\Recherche Catégorie.Inputs[Entrée de recherche]"
               name="Sortie de source OLE DB"
-              startId="Package\Tâche de flux de données\Source Foodies997 - Customer.Outputs[Sortie de source OLE DB]" />
+              startId="Package\Remplir DimProduct\Source Foodies997 - Product.Outputs[Sortie de source OLE DB]" />
+            <path
+              refId="Package\Remplir DimProduct.Paths[Unir tout sortie 1]"
+              endId="Package\Remplir DimProduct\Destination de fichier plat.Inputs[Entrée de destination de fichier plat]"
+              name="Unir tout sortie 1"
+              startId="Package\Remplir DimProduct\Unir tout.Outputs[Unir tout sortie 1]" />
           </paths>
         </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Remplir DimShipper"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{BCC9E8AB-6694-4ABF-8D3E-AECB7EDB101A}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Remplir DimShipper"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Remplir DimSupplier"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{777C2617-1611-432D-9EF1-BD8F22A3D246}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Remplir DimSupplier"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Vider le DW"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:DTSID="{EC3C9ECE-933E-4F4C-B8BE-D79BD1A272DD}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Vider le DW"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{FE821338-AA3A-4544-A2EC-2884144CA24B}"
+          SQLTask:SqlStatementSource="DELETE FROM FactSale;&#xA;DELETE FROM DimCustomer;&#xA;DELETE FROM DimDate;&#xA;DELETE FROM DimEmployee;&#xA;DELETE FROM DimProduct;&#xA;DELETE FROM DimShipper;&#xA;DELETE FROM DimSupplier;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -718,11 +1923,51 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte]"
       DTS:CreationName=""
-      DTS:DTSID="{E8EB931C-93A1-481B-A2DB-B2E706C78018}"
-      DTS:From="Package\Tâche d'exécution de requêtes SQL Foodies997"
+      DTS:DTSID="{D84E9F32-CA55-4A06-BE35-221DB930A294}"
+      DTS:From="Package\Vider le DW"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte"
-      DTS:To="Package\Tâche de flux de données" />
+      DTS:To="Package\Remplir DimProduct" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{5ED2F8CF-30D4-412C-BC9A-F98E96F2576C}"
+      DTS:From="Package\Remplir DimEmployee"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte 2"
+      DTS:To="Package\Remplir DimCustomer" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{986406D5-9B96-474B-8FA7-E8349D576D3E}"
+      DTS:From="Package\Remplir DimCustomer"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte 3"
+      DTS:To="Package\Remplir DimShipper" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{C45A3310-17AF-4022-BA2F-86679CD92CB4}"
+      DTS:From="Package\Remplir DimShipper"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte 4"
+      DTS:To="Package\Remplir DimSupplier" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte 5]"
+      DTS:CreationName=""
+      DTS:DTSID="{2D4D263C-CDEE-432A-8C74-1B65197324CD}"
+      DTS:From="Package\Remplir DimSupplier"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte 5"
+      DTS:To="Package\Remplir DimDate" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte 6]"
+      DTS:CreationName=""
+      DTS:DTSID="{96DE4CFF-DB0A-4CD1-B2AA-C3A0068B6433}"
+      DTS:From="Package\Remplir DimDate"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte 6"
+      DTS:To="Package\Importation dans FactSale" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
@@ -735,29 +1980,163 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="300.8,41.6"
-          Id="Package\Tâche d'exécution de requêtes SQL Foodies997"
-          TopLeft="612.499975661438,103.133334152963" />
+          Size="200,41.6"
+          Id="Package\Importation dans FactSale"
+          TopLeft="251.333323346245,588.640002611796" />
         <NodeLayout
-          Size="197.6,41.6"
-          Id="Package\Tâche de flux de données"
-          TopLeft="669.999973376593,188.066668161286" />
+          Size="180.8,41.6"
+          Id="Package\Remplir DimCustomer"
+          TopLeft="265.99998943011,273.17333550432" />
+        <NodeLayout
+          Size="157.6,41.6"
+          Id="Package\Remplir DimDate"
+          TopLeft="269.999989271164,506.133335702684" />
+        <NodeLayout
+          Size="181.6,41.6"
+          Id="Package\Remplir DimEmployee"
+          TopLeft="263.333322869407,188.586668165419" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Remplir DimShipper"
+          TopLeft="269.333322630989,348.213335305956" />
+        <NodeLayout
+          Size="173.6,41.6"
+          Id="Package\Remplir DimSupplier"
+          TopLeft="261.999989589056,424.266668843163" />
+        <NodeLayout
+          Size="133.6,41.6"
+          Id="Package\Vider le DW"
+          TopLeft="284.499988694986,28.9466668967137" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Contrainte]"
-          TopLeft="765.849974519015,144.733334152963">
+          Id="Package.PrecedenceConstraints[Contrainte 2]"
+          TopLeft="355.266656149759,230.186668165419">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,43.3333340083229"
+              EndConnector="0,42.9866673389011"
               Start="0,0"
-              End="0,35.8333340083229">
+              End="0,35.4866673389011">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,35.8333340083229" />
+                    End="0,35.4866673389011" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 3]"
+          TopLeft="355.666656030549,314.77333550432">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33.4399998016356"
+              Start="0,0"
+              End="0,25.9399998016356">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9399998016356" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 4]"
+          TopLeft="351.866656110022,389.813335305956">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34.4533335372078"
+              Start="0,0"
+              End="0,26.9533335372078">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.9533335372078" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 5]"
+          TopLeft="348.79998943011,465.866668843164">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40.2666668595205"
+              Start="0,0"
+              End="0,32.7666668595205">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.7666668595205" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Remplir DimProduct"
+          TopLeft="262.666656229232,105.333334049649" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte]"
+          TopLeft="349.783322462109,70.5466668967137">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34.786667152935"
+              Start="0,0"
+              End="0,27.286667152935">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.286667152935" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 6]"
+          TopLeft="350.066656308704,547.733335702684">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40.9066669091122"
+              Start="0,0"
+              End="0,33.4066669091122">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.4066669091122" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -770,103 +2149,243 @@
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Tâche de flux de données">
+    design-time-name="Package\Remplir DimProduct">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="222.4,41.6"
-          Id="Package\Tâche de flux de données\Source Foodies997 - Customer"
-          TopLeft="817,145" />
+          Size="176.8,41.6"
+          Id="Package\Remplir DimProduct\Recherche Catégorie"
+          TopLeft="160.407373734464,181.933334628211" />
         <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\Tâche de flux de données\Composant Script"
-          TopLeft="855,298" />
-        <EdgeLayout
-          Id="Package\Tâche de flux de données.Paths[Sortie de source OLE DB]"
-          TopLeft="931.8,186.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,111.4"
-              Start="0,0"
-              End="0,103.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,103.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="360.8,41.6"
+          Id="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct"
+          TopLeft="60,438.088889366432" />
         <NodeLayout
-          Size="370.4,41.6"
-          Id="Package\Tâche de flux de données\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer"
-          TopLeft="747,463" />
-        <EdgeLayout
-          Id="Package\Tâche de flux de données.Paths[Sortie 0]"
-          TopLeft="933.8,339.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,123.4"
-              Start="0,0"
-              End="0,115.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,115.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="213.6,41.6"
+          Id="Package\Remplir DimProduct\Source Foodies997 - Product"
+          TopLeft="173.703701967075,60" />
+        <NodeLayout
+          Size="117.6,41.6"
+          Id="Package\Remplir DimProduct\Unir tout"
+          TopLeft="533.740692232864,260.511113856986" />
+        <NodeLayout
+          Size="169.6,41.6"
+          Id="Package\Remplir DimProduct\Recherche Supplier"
+          TopLeft="157.444410889239,295.948150991981" />
         <NodeLayout
           Size="195.2,41.6"
-          Id="Package\Tâche de flux de données\Destination de fichier plat"
-          TopLeft="927,616" />
+          Id="Package\Remplir DimProduct\Destination de fichier plat"
+          TopLeft="494.814804689384,373.074072818992" />
         <EdgeLayout
-          Id="Package\Tâche de flux de données.Paths[Sortie d'erreur de destination OLE DB]"
-          TopLeft="932.2,504.6">
+          Id="Package\Remplir DimProduct.Paths[Unir tout sortie 1]"
+          TopLeft="592.477748461124,302.111113856986">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="92.3999999999999,111.4"
+              EndConnector="0,70.9629589620052"
               Start="0,0"
-              End="92.3999999999999,103.9">
+              End="0,63.4629589620052">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,51.6999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,51.6999999999999"
-                    Point2="0,55.6999999999999"
-                    Point3="4,55.6999999999999" />
+                    End="0,63.4629589620052" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Remplir DimProduct.Paths[Sortie de source OLE DB]"
+          TopLeft="247.522204517436,101.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,80.3333346282111"
+              Start="0,0"
+              End="0,72.8333346282111">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="88.3999999999999,55.6999999999999" />
-                  <mssgle:CubicBezierSegment
-                    Point1="88.3999999999999,55.6999999999999"
-                    Point2="92.3999999999999,55.6999999999999"
-                    Point3="92.3999999999999,59.6999999999999" />
+                    End="0,72.8333346282111" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Remplir DimProduct.Paths[Sortie de recherche avec correspondance]"
+          TopLeft="241.322205444619,337.548150991981">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,100.540738374451"
+              Start="0,0"
+              End="0,93.0407383744511">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="92.3999999999999,103.9" />
+                    End="0,93.0407383744511" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-37.0814843750001,60.6999999999999,166.56296875,9.7490234375"
+              BoundingBox="-91.67701171875,40.7156816872255,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Remplir DimProduct.Paths[Sortie de recherche avec correspondance1]"
+          TopLeft="220.674040401131,223.533334628211">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="21.5703704881079,72.4148163637702"
+              Start="0,0"
+              End="21.5703704881079,64.9148163637702">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.3556026873759" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.3556026873759"
+                    Point2="0,29.3556026873759"
+                    Point3="4,29.3556026873759" />
+                  <mssgle:LineSegment
+                    End="17.5703704881079,29.3556026873759" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.5703704881079,29.3556026873759"
+                    Point2="21.5703704881079,29.3556026873759"
+                    Point3="21.5703704881079,33.3556026873759" />
+                  <mssgle:LineSegment
+                    End="21.5703704881079,64.9148163637702" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-80.8918264746961,34.3556026873759,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Remplir DimProduct.Paths[Sortie d'erreur de source OLE DB]"
+          TopLeft="314.770368633742,101.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="296.036990265789,158.911113856987"
+              Start="0,0"
+              End="296.036990265789,151.411113856987">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5897671248343" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,45.5897671248343"
+                    Point2="0,49.5897671248343"
+                    Point3="4,49.5897671248343" />
+                  <mssgle:LineSegment
+                    End="292.036990265789,49.5897671248343" />
+                  <mssgle:CubicBezierSegment
+                    Point1="292.036990265789,49.5897671248343"
+                    Point2="296.036990265789,49.5897671248343"
+                    Point3="296.036990265789,53.5897671248343" />
+                  <mssgle:LineSegment
+                    End="296.036990265789,151.411113856987" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="74.4420107578945,54.5897671248343,147.15296875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Remplir DimProduct.Paths[Sortie d'erreur de recherche]"
+          TopLeft="327.044410889239,316.748150991981">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="206.696281343625,-35.4370371349946"
+              Start="0,0"
+              End="199.196281343625,-35.4370371349946">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="99.3481406718127,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="99.3481406718127,0"
+                    Point2="103.348140671813,0"
+                    Point3="103.348140671813,-4" />
+                  <mssgle:LineSegment
+                    End="103.348140671813,-31.4370371349946" />
+                  <mssgle:CubicBezierSegment
+                    Point1="103.348140671813,-31.4370371349946"
+                    Point2="103.348140671813,-35.4370371349946"
+                    Point3="107.348140671813,-35.4370371349946" />
+                  <mssgle:LineSegment
+                    End="199.196281343625,-35.4370371349946" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="40.8811289530627,1,124.9340234375,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Remplir DimProduct.Paths[Sortie d'erreur de recherche1]"
+          TopLeft="276.940707067797,223.533334628211">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="297.3333184984,36.9777792287756"
+              Start="0,0"
+              End="297.3333184984,29.4777792287756">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.3865025524349" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.3865025524349"
+                    Point2="0,18.3865025524349"
+                    Point3="4,18.3865025524349" />
+                  <mssgle:LineSegment
+                    End="293.3333184984,18.3865025524349" />
+                  <mssgle:CubicBezierSegment
+                    Point1="293.3333184984,18.3865025524349"
+                    Point2="297.3333184984,18.3865025524349"
+                    Point3="297.3333184984,22.3865025524349" />
+                  <mssgle:LineSegment
+                    End="297.3333184984,29.4777792287756" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="86.19964753045,23.3865025524349,124.9340234375,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -874,7 +2393,30 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Tâche de flux de données\Source Foodies997 - Customer">
+    design-time-name="Package\Remplir DimProduct\Recherche Catégorie">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Categories]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -883,6 +2425,42 @@
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Remplir DimProduct\Source Foodies997 - Product">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Remplir DimProduct\Recherche Supplier">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Suppliers]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
