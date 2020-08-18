@@ -11,8 +11,9 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="32"
-  DTS:VersionGUID="{E831E7E2-17AB-46E6-9DD4-92131AC28D90}">
+  DTS:ProtectionLevel="2"
+  DTS:VersionBuild="43"
+  DTS:VersionGUID="{BFECE512-8CE2-4082-BB7C-34757F47277B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -442,10 +443,16 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=1920_ProjetBI_etu32766_etu25417;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{FE821338-AA3A-4544-A2EC-2884144CA24B}vm-sql2.iesn.be.1920_ProjetBI_etu32766_etu25417.1920_EtuGenerique;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6QAcb6fKG0+Y4pdwZKxTKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADAPUtR5dGT1VysikEhFtxTTFtIaL/yeC2ZaoXE/VwUqwAAAAAOgAAAAAIAACAAAAAs3boSe+5ui8MQBk6JhSVygicgth6GLSPxG4y4FDPEaSAAAADnfxAFotcYPB2dWwkZfDEmM9F5qt1Mtj9F4iiEbZIBuUAAAADfvXZLUSA87mIYwRMaJNGk8BixXaKqw5/FEQ8JBu53XLgeq2S5/AcZkULtvMvASL2xYiNzwTdSpLZ6Hq4tIiRW</DTS:Password>
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="LeaMBaqhEGI="
+            IV="V+ogAoPJocNzVGOwYYlZEg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+            <CipherData>
+              <CipherValue>V+ogAoPJocNzVGOwYYlZEjvdG3Kcws5CyfMePPQ/qBI+TsRjXdQiJ+Wwx5Hv7brMTXnL6r0kRuiYiaVcagqGfZTUKbE76vtPkkE8/mI2vZ9xIf3tG4txxf+sjD6WnaaLGBJDqb116dJwoWgEaxTnRQlh0DhSui/hSubtAhlr7JmTtg81JnQCw2jT4q5SagGR</CipherValue>
+            </CipherData>
+          </EncryptedData>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -457,10 +464,16 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{5667FD03-CD87-4C78-8149-7E1BF48B83FD}vm-sql2.iesn.be.Foodies997.1920_EtuGenerique;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6QAcb6fKG0+Y4pdwZKxTKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAvmNPaEiDlIsL34SGTMRIAiRlT3ThB38dw40Be1AQ1TQAAAAAOgAAAAAIAACAAAACkdFIzDnUIPexMH2Aq4hgLV5iAnSZBcnn26wkJjFwC1iAAAABRdJEkHWAL/LYuOVOPPEDGdREDLzNvaOs3lpZQ8JJfDEAAAACWd5oKgGhhF04YC0FWq5oMOPn6lSU/H/IWpldahTbLpk2VHxuiPz9Hi0Dq3IwkojyATNjD1qPITIhm2JVbe2sz</DTS:Password>
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="EslR5KyrjP8="
+            IV="ty1flSs4Q5McJK6ye2Hvpg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+            <CipherData>
+              <CipherValue>ty1flSs4Q5McJK6ye2HvpmiYp6bZuQ/XqQCFit9CFeHPKc+paCy4nDZIAxXq/QFiCazu2ll3VKNgydgVKD1esEwhZ7Ha07F+SHz1TZHk8dcm7G3qh3QSWBHRqENCCN4fCnT07Lml6UjqIr7BVsqP2wHCxurj1PdXuDImrUh/dhskqc4R9RczpTq86NFSMM/S</CipherValue>
+            </CipherData>
+          </EncryptedData>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -472,10 +485,16 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Intent=READWRITE;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6QAcb6fKG0+Y4pdwZKxTKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABLHJu6Jnnpd5VGHwXARNzKP2wAVE++SAEsKzwlPbhblAAAAAAOgAAAAAIAACAAAAAZV5EO4rGmih77Oq914vRek6CJntxnlKz+slpyjHw9LyAAAACvAW2i3cGAYOM2xyV569ZSXaJqt9WihKOGy2u373xX3UAAAAAOf0P9HroIlsVzsKpIay6zmUCL6hkQ2KX04yN4cOGxzTD2CSHh3GP4gkD7Rbwur81GT0uoPC6US7hskZQcbbxQ</DTS:Password>
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="uTeqphnafxM="
+            IV="BIV6OL7zc/zPLRSAJyFQtw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+            <CipherData>
+              <CipherValue>BIV6OL7zc/zPLRSAJyFQtyAwN7YQEmSU0tMws2yYhHjPj5DBAO1iTQ8i56d2WNvGvHisj6eVqrZMWCSH7DjxvZcM3S+a+T4SRw7vdaChP4YTrINR9j2KkJg4GO8RD74T8hjy266SxY/XCPcOHpIN2G4AoF384MmbFt2YbunZPcKIYgG1F0gGRS8wzRmtqTly</CipherValue>
+            </CipherData>
+          </EncryptedData>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -4580,7 +4599,7 @@ where [refTable].[SupplierID] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte 2]"
       DTS:CreationName=""
-      DTS:DTSID="{B6D98EBE-E458-4E25-9DD2-426EA3DEAF1D}"
+      DTS:DTSID="{0B97A30E-707A-4D38-9D1D-2D1FCBFCB3B6}"
       DTS:From="Package\Remplir DimEmployee"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte 2"
@@ -4677,6 +4696,28 @@ where [refTable].[SupplierID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 1]"
+          TopLeft="351.19998954932,146.933334049649">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,41.65333411577"
+              Start="0,0"
+              End="0,34.15333411577">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.15333411577" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 4]"
           TopLeft="351.866656110022,389.813335305956">
           <EdgeLayout.Curve>
@@ -4743,28 +4784,6 @@ where [refTable].[SupplierID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Contrainte 1]"
-          TopLeft="351.19998954932,146.933334049649">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,41.65333411577"
-              Start="0,0"
-              End="0,34.15333411577">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.15333411577" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 2]"
           TopLeft="355.266656149759,230.186668165419">
           <EdgeLayout.Curve>
@@ -4795,6 +4814,10 @@ where [refTable].[SupplierID] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="195.2,41.6"
+          Id="Package\Remplir DimCustomer\Destination de fichier plat"
+          TopLeft="559.2,246.4" />
+        <NodeLayout
           Size="222.4,41.6"
           Id="Package\Remplir DimCustomer\Source Foodies997 - Customer"
           TopLeft="224.8,43.2" />
@@ -4806,10 +4829,54 @@ where [refTable].[SupplierID] = ?</property>
           Size="117.6,41.6"
           Id="Package\Remplir DimCustomer\Unir tout"
           TopLeft="593.6,127.2" />
-        <NodeLayout
-          Size="195.2,41.6"
-          Id="Package\Remplir DimCustomer\Destination de fichier plat"
-          TopLeft="559.2,246.4" />
+        <EdgeLayout
+          Id="Package\Remplir DimCustomer.Paths[Unir tout sortie 1]"
+          TopLeft="654.6,168.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,77.5999999999999"
+              Start="0,0"
+              End="0,70.0999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,70.0999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Remplir DimCustomer.Paths[Sortie de source OLE DB]"
+          TopLeft="300.333333333333,84.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,151.2"
+              Start="0,0"
+              End="0,143.7">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,143.7" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Remplir DimCustomer.Paths[Sortie d'erreur de source OLE DB]"
           TopLeft="371.733333333333,84.8">
@@ -4846,53 +4913,35 @@ where [refTable].[SupplierID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Remplir DimCustomer.Paths[Sortie de source OLE DB]"
-          TopLeft="300.333333333333,84.8">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,151.2"
-              Start="0,0"
-              End="0,143.7">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,143.7" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Remplir DimCustomer.Paths[Unir tout sortie 1]"
-          TopLeft="654.6,168.8">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,77.5999999999999"
-              Start="0,0"
-              End="0,70.0999999999999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,70.0999999999999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Remplir DimCustomer\Source Foodies997 - Customer">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Remplir DimCustomer\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Remplir DimEmployee">
     <LayoutInfo>
@@ -4903,13 +4952,65 @@ where [refTable].[SupplierID] = ?</property>
           Id="Package\Remplir DimEmployee\Source Foodies997 - Employee"
           TopLeft="193.6,34.4" />
         <NodeLayout
+          Size="117.6,41.6"
+          Id="Package\Remplir DimEmployee\Unir tout"
+          TopLeft="566.4,142.4" />
+        <NodeLayout
           Size="371.2,41.6"
           Id="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee"
           TopLeft="83.2,196" />
         <NodeLayout
-          Size="117.6,41.6"
-          Id="Package\Remplir DimEmployee\Unir tout"
-          TopLeft="566.4,142.4" />
+          Size="195.2,41.6"
+          Id="Package\Remplir DimEmployee\Destination de fichier plat"
+          TopLeft="531.2,260" />
+        <EdgeLayout
+          Id="Package\Remplir DimEmployee.Paths[Unir tout sortie 1]"
+          TopLeft="627,184">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,76"
+              Start="0,0"
+              End="0,68.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,68.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Remplir DimEmployee.Paths[Sortie de source OLE DB]"
+          TopLeft="269.2,76">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,120"
+              Start="0,0"
+              End="0,112.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,112.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Remplir DimEmployee.Paths[Sortie d'erreur de source OLE DB]"
           TopLeft="341.6,76">
@@ -4946,57 +5047,35 @@ where [refTable].[SupplierID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="195.2,41.6"
-          Id="Package\Remplir DimEmployee\Destination de fichier plat"
-          TopLeft="531.2,260" />
-        <EdgeLayout
-          Id="Package\Remplir DimEmployee.Paths[Unir tout sortie 1]"
-          TopLeft="627,184">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,76"
-              Start="0,0"
-              End="0,68.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,68.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Remplir DimEmployee.Paths[Sortie de source OLE DB]"
-          TopLeft="269.2,76">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,120"
-              Start="0,0"
-              End="0,112.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,112.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Remplir DimEmployee\Source Foodies997 - Employee">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Remplir DimProduct">
     <LayoutInfo>
@@ -5247,7 +5326,7 @@ where [refTable].[SupplierID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5257,7 +5336,7 @@ where [refTable].[SupplierID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5283,7 +5362,7 @@ where [refTable].[SupplierID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5293,7 +5372,7 @@ where [refTable].[SupplierID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5302,58 +5381,6 @@ where [refTable].[SupplierID] = ?</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Remplir DimProduct\Destination 1920_ProjetBI_etu32766_etu25417 - DimProduct">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Remplir DimEmployee\Source Foodies997 - Employee">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Remplir DimCustomer\Source Foodies997 - Customer">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Remplir DimCustomer\Destination 1920_ProjetBI_etu32766_etu25417 - DimCustomer">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

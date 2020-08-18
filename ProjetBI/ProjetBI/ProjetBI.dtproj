@@ -12,7 +12,7 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="DontSaveSensitive" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{a6a82b25-825f-44d0-b4c4-65efb63d14de}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">ProjetBI</SSIS:Property>
@@ -26,6 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-7FSB4E3</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="SNgtN3/gcpo=" SSIS:IV="q54e5DU6euhsi9cYMcnqUw==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">o79Hx4Vcw5P83A9PulSimfLIbKkGGyXsQg4mVN0Qqyf0d2hWaokaphpcI0VfnjqqrBfCISgs3W6lWkc3xaYF5KINHeQ5h9mAL22cOAoXSwrzEbp+P+GrM/CR/6lJQr1Bjf7k5bqBAdT+6mcO3N2SwcKK+UU+KDw5xi641j1Q1yDds6w7+qDJ053GiI3V2rdq</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -41,14 +42,14 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">32</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">43</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E831E7E2-17AB-46E6-9DD4-92131AC28D90}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{BFECE512-8CE2-4082-BB7C-34757F47277B}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
                 <SSIS:Parameter SSIS:Name="RemplirDimProduct_RechercheCatGorieSqlCommand">
