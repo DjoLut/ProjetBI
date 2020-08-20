@@ -15,7 +15,7 @@ GO
 
 CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimCustomer](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[Origin] [nvarchar](40),
+	[Origin] [nvarchar](128),
 	[CustomerID] [nchar](5) NOT NULL,
 	[CompanyName] [nvarchar](40) NOT NULL,
 	[ContactName] [nvarchar](30),
@@ -55,7 +55,7 @@ GO
 
 CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimEmployee](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[Origin] [nvarchar](40),
+	[Origin] [nvarchar](128),
 	[EmployeeId] [int] NOT NULL,
 	[Lastname] [nvarchar](20) NOT NULL,
 	[Firstname] [nvarchar](10) NOT NULL,
@@ -80,10 +80,11 @@ GO
 
 CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimProduct](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[Origin] [nvarchar](40),
+	[Origin] [nvarchar](128),
 	[ProductIDBase] [int] NOT NULL,
-	[ProductName_EN] [nvarchar](40),
-	[ProductName_FR] [nvarchar](40) NOT NULL,
+	[SupplierIDBase] [int],
+	[ProductName_EN] [nvarchar](40) NOT NULL,
+	[ProductName_FR] [nvarchar](40),
 	[UnitPrice] [money],
 	[ReorderLevel] [int],
 	[Discontinued] [bit] NOT NULL,
@@ -99,7 +100,7 @@ GO
 
 CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimShipper](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[Origin] [nvarchar](40),
+	[Origin] [nvarchar](128),
 	[ShipperIDBase] [int] NOT NULL,
 	[CompanyName] [nvarchar](40) NOT NULL,
 	[Phone] [nvarchar](24),
@@ -121,7 +122,7 @@ GO
 
 CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[DimSupplier](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[Origin] [nvarchar](40),
+	[Origin] [nvarchar](128),
 	[SupplierId] [int] NOT NULL,
 	[CompanyName] [nvarchar](40) NOT NULL,
 	[Address] [nvarchar](60),
@@ -141,13 +142,13 @@ GO
 
 CREATE TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[Origin] [nvarchar](40),
+	[Origin] [nvarchar](128),
 	[OrderIDBase] [int] NOT NULL,
 	[TotalAmount] [money] NOT NULL,
 	[UnitPrice] [money] NOT NULL,
 	[Quantity] [int] NOT NULL,
 	[IsOnline] [bit] NOT NULL,
-	[Discount] [float] NOT NULL,
+	[Discount] [real] NOT NULL,
 	[DimRequiredDate] [int] NULL,
 	[DimShippedDate] [int] NULL,
 	[DimCustomerId] [int] NULL,
@@ -194,5 +195,3 @@ GO
 ALTER TABLE [1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]  WITH CHECK ADD FOREIGN KEY([DimSupplierId])
 REFERENCES [1920_ProjetBI_etu32766_etu25417].[dbo].[DimSupplier] ([Id])
 GO
-
-
