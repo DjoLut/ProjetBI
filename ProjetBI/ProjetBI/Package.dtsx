@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="114"
-  DTS:VersionGUID="{D272B689-DB2F-4FBA-94E1-A461FCE22309}">
+  DTS:VersionBuild="131"
+  DTS:VersionGUID="{CF0F5421-9AF2-4861-84FC-4D6918320D80}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -912,12 +912,12 @@
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=1920_ProjetBI_etu32766_etu25417;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{FE821338-AA3A-4544-A2EC-2884144CA24B}vm-sql2.iesn.be.1920_ProjetBI_etu32766_etu25417.1920_EtuGenerique;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="Z9VnVObsaK8="
-            IV="6FtLcQA6/qZQO8KQQO1aSw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="ZM0Y/+pA3kw="
+            IV="XdFMo9TXY9gojfuH5s/dwA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>6FtLcQA6/qZQO8KQQO1aSwZJEHxsKRvyhk7nzGouab7p1zkL52blh3w9fl480gJPJn9+FIYuy6dbdGXnCNKUNbGHnE0D9y7ttwaeRmr94CJfZczbz3TZLeRQ3APNcXVv61Qya3Ku5xXvOo/kYodOzmi4PfyfHUg8g5U8lRyUTmDv2wFaUc6ESoSpAjudTFiD</CipherValue>
+              <CipherValue>XdFMo9TXY9gojfuH5s/dwBQGWIqvprCrl+y5cbtEB6dcKUMELIuMhVPYEkS/Feo9+FeF8k0c9zIA0No+zSGu5JamdfYKSOhGExqukLAN1xoPfFN+ThrpliRRIUF1LTDDPe8Lnseq9qOpvRh1cNtDrwns9Wpqi+928d/isETujhseHP4mvJkPOtMekR4h/PvF</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -933,12 +933,12 @@
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{5667FD03-CD87-4C78-8149-7E1BF48B83FD}vm-sql2.iesn.be.Foodies997.1920_EtuGenerique;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="8Zw5YaniQGI="
-            IV="G9/jdJ6Cag3IQtgLLcGHtg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="grvUO1sU07c="
+            IV="darg23S9Eiv8NWrtlpZi9g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>G9/jdJ6Cag3IQtgLLcGHtgF+zrBr24dEfsQUmPCazTg4A3dsdjlOopyXReztlcLXsAyoS6DZO5MoYpzkTTkQ7SO1RwrF9/eT7CtM8AFajFzxqnyONkU2akj35WJpBfNchB9mTN0kk70kqiLqbHWFysX2uL3uzn4mzKFC/GIAwkuXCgE3TGbrDqg/OMx1kbyR</CipherValue>
+              <CipherValue>darg23S9Eiv8NWrtlpZi9sIDUkW0Pqo15gN95LRfsWias7pmIZQ3NrIcMsx1m2wQxjcmruVujWMFnKlrc+vHjaURd1aeD/x3UAT4AyMgQvsookZnexKEo87teOJ3iKe7roQeBqfaz4Zi0TaiuIVkrwVnvoXYFILixMD9+HGhyq0mEpgAh9d3ZIPg4G64o8Gx</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -954,12 +954,12 @@
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Intent=READWRITE;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="8DxGs+HU0vw="
-            IV="jvEvPacXU555mZu43Tqj7w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="6nEs4lGRnhM="
+            IV="P+r6SpmkcsNdNswa+wyb/g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>jvEvPacXU555mZu43Tqj7zfjpVmXTiXSJ5j6IO53ZxoZF/XG8ybpaG61JjCh/6tPU/iZUbPIdtYyUHukqVr8bCxEjOQzVFqtP0zP31fULCO/pmicIVyqQ2XHL0eSGosZlpZ8GZECMcj3eZlR3nODjv9cQo1HWXShLK015k2UoHwhI5dAlSkB8weU2dZWm9hU</CipherValue>
+              <CipherValue>P+r6SpmkcsNdNswa+wyb/mTr8RMNkjutWn7lCSz0TCtpRAaH8TQB1Vscbmdrxc1mALsqa/hZquz0UADw+zNLOjzqIxOYuFQFZPSy8EX+y0+V4MWs+EktNjnwEF1XHf0oMVtQx8nwRxEXLmob3wHJ+ll1rkJHcCwXyuAdCdYTc/8Fr9zJVWjsezuU4PPjutSu</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -1023,30 +1023,30 @@
           version="1">
           <components>
             <component
-              refId="Package\Importation dans FactSale\Colonne dérivée"
+              refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
               description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
-              name="Colonne dérivée"
+              name="Calculs des prix et conversion des NULL"
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Importation dans FactSale\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                  refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Inputs[Entrée de colonne dérivée]"
                   description="Entrée de la transformation de colonnes dérivées"
                   name="Entrée de colonne dérivée">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Importation dans FactSale\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[UnitPrice]"
+                      refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Inputs[Entrée de colonne dérivée].Columns[UnitPrice]"
                       cachedDataType="cy"
                       cachedName="UnitPrice"
                       lineageId="Package\Importation dans FactSale\Source Foodies997 - OrdersDetails.Outputs[Sortie de source OLE DB].Columns[UnitPrice]" />
                     <inputColumn
-                      refId="Package\Importation dans FactSale\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[Quantity]"
+                      refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Inputs[Entrée de colonne dérivée].Columns[Quantity]"
                       cachedDataType="i2"
                       cachedName="Quantity"
                       lineageId="Package\Importation dans FactSale\Source Foodies997 - OrdersDetails.Outputs[Sortie de source OLE DB].Columns[Quantity]" />
                     <inputColumn
-                      refId="Package\Importation dans FactSale\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[Discount]"
+                      refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Inputs[Entrée de colonne dérivée].Columns[Discount]"
                       cachedDataType="r4"
                       cachedName="Discount"
                       errorOrTruncationOperation="Calcul"
@@ -1074,18 +1074,18 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
+                  refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie de colonne dérivée]"
                   description="Sortie par défaut de la transformation de colonnes dérivées"
                   exclusionGroup="1"
                   name="Sortie de colonne dérivée"
-                  synchronousInputId="Package\Importation dans FactSale\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  synchronousInputId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Inputs[Entrée de colonne dérivée]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[TotalAmount]"
+                      refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie de colonne dérivée].Columns[TotalAmount]"
                       dataType="r4"
                       errorOrTruncationOperation="Calcul"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[TotalAmount]"
+                      lineageId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie de colonne dérivée].Columns[TotalAmount]"
                       name="TotalAmount"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -1106,23 +1106,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
+                  refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée]"
                   description="Sortie d'erreur de la transformation de colonnes dérivées"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Sortie d'erreur de colonne dérivée"
-                  synchronousInputId="Package\Importation dans FactSale\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  synchronousInputId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Inputs[Entrée de colonne dérivée]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      lineageId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      refId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      lineageId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1265,20 +1265,20 @@
               </outputs>
             </component>
             <component
-              refId="Package\Importation dans FactSale\Conversion des dates NULL"
+              refId="Package\Importation dans FactSale\Conversion des NULL"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
               description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
-              name="Conversion des dates NULL"
+              name="Conversion des NULL"
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Importation dans FactSale\Conversion des dates NULL.Inputs[Entrée de colonne dérivée]"
+                  refId="Package\Importation dans FactSale\Conversion des NULL.Inputs[Entrée de colonne dérivée]"
                   description="Entrée de la transformation de colonnes dérivées"
                   name="Entrée de colonne dérivée">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Importation dans FactSale\Conversion des dates NULL.Inputs[Entrée de colonne dérivée].Columns[RequiredDate]"
+                      refId="Package\Importation dans FactSale\Conversion des NULL.Inputs[Entrée de colonne dérivée].Columns[RequiredDate]"
                       cachedDataType="dbTimeStamp"
                       cachedName="RequiredDate"
                       errorOrTruncationOperation="Calcul"
@@ -1301,7 +1301,7 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Importation dans FactSale\Conversion des dates NULL.Inputs[Entrée de colonne dérivée].Columns[ShippedDate]"
+                      refId="Package\Importation dans FactSale\Conversion des NULL.Inputs[Entrée de colonne dérivée].Columns[ShippedDate]"
                       cachedDataType="dbTimeStamp"
                       cachedName="ShippedDate"
                       errorOrTruncationOperation="Calcul"
@@ -1324,7 +1324,7 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Importation dans FactSale\Conversion des dates NULL.Inputs[Entrée de colonne dérivée].Columns[OrderDate]"
+                      refId="Package\Importation dans FactSale\Conversion des NULL.Inputs[Entrée de colonne dérivée].Columns[OrderDate]"
                       cachedDataType="dbTimeStamp"
                       cachedName="OrderDate"
                       errorOrTruncationOperation="Calcul"
@@ -1346,37 +1346,60 @@
                           name="FriendlyExpression">ISNULL(OrderDate) ? (DT_DBTIMESTAMP)"1900-01-01" : OrderDate</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\Importation dans FactSale\Conversion des NULL.Inputs[Entrée de colonne dérivée].Columns[EmployeeID]"
+                      cachedDataType="i4"
+                      cachedName="EmployeeID"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Importation dans FactSale\Recherche Orders.Outputs[Sortie de recherche avec correspondance].Columns[EmployeeID]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">[ISNULL](#{Package\Importation dans FactSale\Recherche Orders.Outputs[Sortie de recherche avec correspondance].Columns[EmployeeID]}) ? -1 : #{Package\Importation dans FactSale\Recherche Orders.Outputs[Sortie de recherche avec correspondance].Columns[EmployeeID]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(EmployeeID) ? -1 : EmployeeID</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Importation dans FactSale\Conversion des dates NULL.Outputs[Sortie de colonne dérivée]"
+                  refId="Package\Importation dans FactSale\Conversion des NULL.Outputs[Sortie de colonne dérivée]"
                   description="Sortie par défaut de la transformation de colonnes dérivées"
                   exclusionGroup="1"
                   name="Sortie de colonne dérivée"
-                  synchronousInputId="Package\Importation dans FactSale\Conversion des dates NULL.Inputs[Entrée de colonne dérivée]">
+                  synchronousInputId="Package\Importation dans FactSale\Conversion des NULL.Inputs[Entrée de colonne dérivée]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Importation dans FactSale\Conversion des dates NULL.Outputs[Sortie d'erreur de colonne dérivée]"
+                  refId="Package\Importation dans FactSale\Conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée]"
                   description="Sortie d'erreur de la transformation de colonnes dérivées"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Sortie d'erreur de colonne dérivée"
-                  synchronousInputId="Package\Importation dans FactSale\Conversion des dates NULL.Inputs[Entrée de colonne dérivée]">
+                  synchronousInputId="Package\Importation dans FactSale\Conversion des NULL.Inputs[Entrée de colonne dérivée]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Importation dans FactSale\Conversion des dates NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      refId="Package\Importation dans FactSale\Conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Importation dans FactSale\Conversion des dates NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      lineageId="Package\Importation dans FactSale\Conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Importation dans FactSale\Conversion des dates NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      refId="Package\Importation dans FactSale\Conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Importation dans FactSale\Conversion des dates NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      lineageId="Package\Importation dans FactSale\Conversion des NULL.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1492,7 +1515,7 @@
                       cachedDataType="r4"
                       cachedName="TotalAmount"
                       externalMetadataColumnId="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale.Inputs[Entrée de destination OLE DB].ExternalColumns[TotalAmount]"
-                      lineageId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[TotalAmount]" />
+                      lineageId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie de colonne dérivée].Columns[TotalAmount]" />
                     <inputColumn
                       refId="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale.Inputs[Entrée de destination OLE DB].Columns[OrderID]"
                       cachedDataType="i4"
@@ -1581,7 +1604,7 @@
                       name="IsOnline" />
                     <externalMetadataColumn
                       refId="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale.Inputs[Entrée de destination OLE DB].ExternalColumns[Discount]"
-                      dataType="r8"
+                      dataType="r4"
                       name="Discount" />
                     <externalMetadataColumn
                       refId="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale.Inputs[Entrée de destination OLE DB].ExternalColumns[DimRequiredDate]"
@@ -2905,7 +2928,7 @@ where [refTable].[OrderID] = ?</property>
               refId="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée]"
               endId="Package\Importation dans FactSale\Conversion des dates au format YYYYMMDD.Inputs[Entrée de colonne dérivée]"
               name="Sortie de colonne dérivée"
-              startId="Package\Importation dans FactSale\Conversion des dates NULL.Outputs[Sortie de colonne dérivée]" />
+              startId="Package\Importation dans FactSale\Conversion des NULL.Outputs[Sortie de colonne dérivée]" />
             <path
               refId="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée1]"
               endId="Package\Importation dans FactSale\Recherche DimEmployee.Inputs[Entrée de recherche]"
@@ -2915,37 +2938,37 @@ where [refTable].[OrderID] = ?</property>
               refId="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée2]"
               endId="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale.Inputs[Entrée de destination OLE DB]"
               name="Sortie de colonne dérivée"
-              startId="Package\Importation dans FactSale\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
+              startId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie de colonne dérivée]" />
             <path
               refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance]"
-              endId="Package\Importation dans FactSale\Conversion des dates NULL.Inputs[Entrée de colonne dérivée]"
+              endId="Package\Importation dans FactSale\Conversion des NULL.Inputs[Entrée de colonne dérivée]"
               name="Sortie de recherche avec correspondance"
               startId="Package\Importation dans FactSale\Recherche Orders.Outputs[Sortie de recherche avec correspondance]" />
             <path
               refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance1]"
-              endId="Package\Importation dans FactSale\Recherche DimCustomer.Inputs[Entrée de recherche]"
-              name="Sortie de recherche avec correspondance"
-              startId="Package\Importation dans FactSale\Recherche DimEmployee.Outputs[Sortie de recherche avec correspondance]" />
-            <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance2]"
               endId="Package\Importation dans FactSale\Recherche DimProduct.Inputs[Entrée de recherche]"
               name="Sortie de recherche avec correspondance"
               startId="Package\Importation dans FactSale\Recherche DimCustomer.Outputs[Sortie de recherche avec correspondance]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance3]"
+              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance2]"
               endId="Package\Importation dans FactSale\Recherche DimSupplier.Inputs[Entrée de recherche]"
               name="Sortie de recherche avec correspondance"
               startId="Package\Importation dans FactSale\Recherche DimProduct.Outputs[Sortie de recherche avec correspondance]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance4]"
+              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance3]"
               endId="Package\Importation dans FactSale\Recherche DimShipper.Inputs[Entrée de recherche]"
               name="Sortie de recherche avec correspondance"
               startId="Package\Importation dans FactSale\Recherche DimSupplier.Outputs[Sortie de recherche avec correspondance]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance5]"
-              endId="Package\Importation dans FactSale\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance4]"
+              endId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Inputs[Entrée de colonne dérivée]"
               name="Sortie de recherche avec correspondance"
               startId="Package\Importation dans FactSale\Recherche DimShipper.Outputs[Sortie de recherche avec correspondance]" />
+            <path
+              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance5]"
+              endId="Package\Importation dans FactSale\Recherche DimCustomer.Inputs[Entrée de recherche]"
+              name="Sortie de recherche avec correspondance"
+              startId="Package\Importation dans FactSale\Recherche DimEmployee.Outputs[Sortie de recherche avec correspondance]" />
             <path
               refId="Package\Importation dans FactSale.Paths[Sortie de source OLE DB]"
               endId="Package\Importation dans FactSale\Recherche Orders.Inputs[Entrée de recherche]"
@@ -4814,20 +4837,6 @@ UNION (SELECT DISTINCT(ISNULL([ShippedDate], CONVERT(DATETIME, '1900-01-01', 102
                       externalMetadataColumnId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].ExternalColumns[ReportsTo]"
                       lineageId="Package\Remplir DimEmployee\Source Foodies997 - Employee.Outputs[Sortie de source OLE DB].Columns[ReportsTo]" />
                     <inputColumn
-                      refId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].Columns[Region]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="Region"
-                      externalMetadataColumnId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].ExternalColumns[Region_FR]"
-                      lineageId="Package\Remplir DimEmployee\Source Foodies997 - Employee.Outputs[Sortie de source OLE DB].Columns[Region]" />
-                    <inputColumn
-                      refId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].Columns[Country]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="Country"
-                      externalMetadataColumnId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].ExternalColumns[Country_FR]"
-                      lineageId="Package\Remplir DimEmployee\Source Foodies997 - Employee.Outputs[Sortie de source OLE DB].Columns[Country]" />
-                    <inputColumn
                       refId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].Columns[Address]"
                       cachedDataType="wstr"
                       cachedLength="60"
@@ -4841,6 +4850,20 @@ UNION (SELECT DISTINCT(ISNULL([ShippedDate], CONVERT(DATETIME, '1900-01-01', 102
                       cachedName="Origin"
                       externalMetadataColumnId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].ExternalColumns[Origin]"
                       lineageId="Package\Remplir DimEmployee\Source Foodies997 - Employee.Outputs[Sortie de source OLE DB].Columns[Origin]" />
+                    <inputColumn
+                      refId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].Columns[Region]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Region"
+                      externalMetadataColumnId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].ExternalColumns[Region_EN]"
+                      lineageId="Package\Remplir DimEmployee\Source Foodies997 - Employee.Outputs[Sortie de source OLE DB].Columns[Region]" />
+                    <inputColumn
+                      refId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Country"
+                      externalMetadataColumnId="Package\Remplir DimEmployee\Destination 1920_ProjetBI_etu32766_etu25417 - DimEmployee.Inputs[Entrée de destination OLE DB].ExternalColumns[Country_EN]"
+                      lineageId="Package\Remplir DimEmployee\Source Foodies997 - Employee.Outputs[Sortie de source OLE DB].Columns[Country]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -7794,20 +7817,6 @@ FROM Products</property>
                       externalMetadataColumnId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].ExternalColumns[ShipAdress]"
                       lineageId="Package\Remplir DimShipper\Source Foodies997 - Orders.Outputs[Sortie de source OLE DB].Columns[ShipAddress]" />
                     <inputColumn
-                      refId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].Columns[ShipRegion]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="ShipRegion"
-                      externalMetadataColumnId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].ExternalColumns[ShipRegion_FR]"
-                      lineageId="Package\Remplir DimShipper\Source Foodies997 - Orders.Outputs[Sortie de source OLE DB].Columns[ShipRegion]" />
-                    <inputColumn
-                      refId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].Columns[ShipCountry]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="ShipCountry"
-                      externalMetadataColumnId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].ExternalColumns[ShipCountry_FR]"
-                      lineageId="Package\Remplir DimShipper\Source Foodies997 - Orders.Outputs[Sortie de source OLE DB].Columns[ShipCountry]" />
-                    <inputColumn
                       refId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].Columns[Origin]"
                       cachedDataType="wstr"
                       cachedLength="128"
@@ -7820,6 +7829,20 @@ FROM Products</property>
                       cachedName="ShipVia"
                       externalMetadataColumnId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].ExternalColumns[ShipperIDBase]"
                       lineageId="Package\Remplir DimShipper\Source Foodies997 - Orders.Outputs[Sortie de source OLE DB].Columns[ShipVia]" />
+                    <inputColumn
+                      refId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].Columns[ShipRegion]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="ShipRegion"
+                      externalMetadataColumnId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].ExternalColumns[ShipRegion_EN]"
+                      lineageId="Package\Remplir DimShipper\Source Foodies997 - Orders.Outputs[Sortie de source OLE DB].Columns[ShipRegion]" />
+                    <inputColumn
+                      refId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].Columns[ShipCountry]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="ShipCountry"
+                      externalMetadataColumnId="Package\Remplir DimShipper\Destination 1920_ProjetBI_etu32766_etu25417 - DimShipper.Inputs[Entrée de destination OLE DB].ExternalColumns[ShipCountry_EN]"
+                      lineageId="Package\Remplir DimShipper\Source Foodies997 - Orders.Outputs[Sortie de source OLE DB].Columns[ShipCountry]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -9519,26 +9542,26 @@ where [refTable].[ShipperID] = ?</property>
                       externalMetadataColumnId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Phone]"
                       lineageId="Package\Remplir DimSupplier\Source Foodies997 - Supplier.Outputs[Sortie de source OLE DB].Columns[Phone]" />
                     <inputColumn
-                      refId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].Columns[Region]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="Region"
-                      externalMetadataColumnId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Region_FR]"
-                      lineageId="Package\Remplir DimSupplier\Source Foodies997 - Supplier.Outputs[Sortie de source OLE DB].Columns[Region]" />
-                    <inputColumn
-                      refId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].Columns[Country]"
-                      cachedDataType="wstr"
-                      cachedLength="15"
-                      cachedName="Country"
-                      externalMetadataColumnId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Country_FR]"
-                      lineageId="Package\Remplir DimSupplier\Source Foodies997 - Supplier.Outputs[Sortie de source OLE DB].Columns[Country]" />
-                    <inputColumn
                       refId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].Columns[Origin]"
                       cachedDataType="wstr"
                       cachedLength="128"
                       cachedName="Origin"
                       externalMetadataColumnId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Origin]"
                       lineageId="Package\Remplir DimSupplier\Source Foodies997 - Supplier.Outputs[Sortie de source OLE DB].Columns[Origin]" />
+                    <inputColumn
+                      refId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].Columns[Region]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Region"
+                      externalMetadataColumnId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Region_EN]"
+                      lineageId="Package\Remplir DimSupplier\Source Foodies997 - Supplier.Outputs[Sortie de source OLE DB].Columns[Region]" />
+                    <inputColumn
+                      refId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Country"
+                      externalMetadataColumnId="Package\Remplir DimSupplier\Destination 1920_ProjetBI_etu32766_etu25417 - DimSupplier.Inputs[Entrée de destination OLE DB].ExternalColumns[Country_EN]"
+                      lineageId="Package\Remplir DimSupplier\Source Foodies997 - Supplier.Outputs[Sortie de source OLE DB].Columns[Country]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -10360,6 +10383,22 @@ where [refTable].[ShipperID] = ?</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Tâche d'exécution de requêtes SQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tâche d'exécution de requêtes SQL"
+      DTS:DTSID="{6D8766E4-B26B-4E60-A827-1D5D0BA3A886}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tâche d'exécution de requêtes SQL"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{FE821338-AA3A-4544-A2EC-2884144CA24B}"
+          SQLTask:SqlStatementSource="DBCC CHECKIDENT ('[1920_ProjetBI_etu32766_etu25417].[dbo].[DimEmployee]', RESEED, 0);&#xA;GO&#xA;&#xA;SET IDENTITY_INSERT [1920_ProjetBI_etu32766_etu25417].[dbo].[DimEmployee] ON&#xA;&#xA;INSERT INTO [1920_ProjetBI_etu32766_etu25417].[dbo].[DimEmployee] (Id, Origin, EmployeeId, Lastname, Firstname)&#xA;VALUES (-1, 'Foodies997', -1, 'On', 'Line');&#xA;&#xA;SET IDENTITY_INSERT [1920_ProjetBI_etu32766_etu25417].[dbo].[DimEmployee] OFF&#xA;&#xA;DBCC CHECKIDENT ('[1920_ProjetBI_etu32766_etu25417].[dbo].[DimEmployee]', RESEED, 0);&#xA;GO&#xA;&#xA;DBCC CHECKIDENT ('[1920_ProjetBI_etu32766_etu25417].[dbo].[DimProduct]', RESEED, 0);&#xA;GO&#xA;&#xA;DBCC CHECKIDENT ('[1920_ProjetBI_etu32766_etu25417].[dbo].[DimCustomer]', RESEED, 0);&#xA;GO&#xA;&#xA;DBCC CHECKIDENT ('[1920_ProjetBI_etu32766_etu25417].[dbo].[DimSupplier]', RESEED, 0);&#xA;GO&#xA;&#xA;DBCC CHECKIDENT ('[1920_ProjetBI_etu32766_etu25417].[dbo].[DimShipper]', RESEED, 0);&#xA;GO&#xA;&#xA;DBCC CHECKIDENT ('[1920_ProjetBI_etu32766_etu25417].[dbo].[FactSale]', RESEED, 0);&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Vider le DW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:DTSID="{EC3C9ECE-933E-4F4C-B8BE-D79BD1A272DD}"
@@ -10379,11 +10418,11 @@ where [refTable].[ShipperID] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte]"
       DTS:CreationName=""
-      DTS:DTSID="{42949EBA-F651-45E6-B2E4-06ABA16A139C}"
+      DTS:DTSID="{0A2183A1-863E-4EDB-8297-7E918048136A}"
       DTS:From="Package\Vider le DW"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte"
-      DTS:To="Package\Remplir DimProduct" />
+      DTS:To="Package\Tâche d'exécution de requêtes SQL" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte 1]"
       DTS:CreationName=""
@@ -10432,6 +10471,14 @@ where [refTable].[ShipperID] = ?</property>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte 6"
       DTS:To="Package\Importation dans FactSale" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte 7]"
+      DTS:CreationName=""
+      DTS:DTSID="{4CC6F4F7-60A2-4127-A098-A89A255DB10B}"
+      DTS:From="Package\Tâche d'exécution de requêtes SQL"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte 7"
+      DTS:To="Package\Remplir DimProduct" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
@@ -10444,64 +10491,42 @@ where [refTable].[ShipperID] = ?</property>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="200,41.6"
           Id="Package\Importation dans FactSale"
-          TopLeft="265.333322789935,588.640002611796" />
+          TopLeft="293.333321677315,588.640002611796" />
         <NodeLayout
           Size="180.8,41.6"
           Id="Package\Remplir DimCustomer"
-          TopLeft="279.9999888738,273.17333550432" />
+          TopLeft="307.99998776118,273.17333550432" />
         <NodeLayout
           Size="157.6,41.6"
           Id="Package\Remplir DimDate"
-          TopLeft="283.999988714854,506.133335702684" />
+          TopLeft="311.999987602234,506.133335702684" />
         <NodeLayout
           Size="181.6,41.6"
           Id="Package\Remplir DimEmployee"
-          TopLeft="277.333322313097,188.586668165419" />
+          TopLeft="305.333321200477,188.586668165419" />
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Remplir DimProduct"
-          TopLeft="276.666655672922,105.333334049649" />
+          TopLeft="304.666654560302,105.333334049649" />
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Remplir DimShipper"
-          TopLeft="283.333322074679,348.213335305956" />
+          TopLeft="311.333320962059,348.213335305956" />
         <NodeLayout
           Size="173.6,41.6"
           Id="Package\Remplir DimSupplier"
-          TopLeft="275.999989032746,424.266668843163" />
+          TopLeft="303.999987920126,424.266668843163" />
         <NodeLayout
           Size="133.6,41.6"
           Id="Package\Vider le DW"
-          TopLeft="298.499988138676,28.9466668967137" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Contrainte]"
-          TopLeft="363.783321905799,70.5466668967137">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34.7866671529353"
-              Start="0,0"
-              End="0,27.2866671529353">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.2866671529353" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="326.499987026056,28.9466668967137" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 1]"
-          TopLeft="365.19998899301,146.933334049649">
+          TopLeft="393.19998788039,146.933334049649">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10523,7 +10548,7 @@ where [refTable].[ShipperID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 2]"
-          TopLeft="369.266655593449,230.186668165419">
+          TopLeft="397.266654480829,230.186668165419">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10545,7 +10570,7 @@ where [refTable].[ShipperID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 3]"
-          TopLeft="369.66665547424,314.77333550432">
+          TopLeft="397.66665436162,314.77333550432">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10567,7 +10592,7 @@ where [refTable].[ShipperID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 4]"
-          TopLeft="365.866655553713,389.813335305956">
+          TopLeft="393.866654441093,389.813335305956">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10589,7 +10614,7 @@ where [refTable].[ShipperID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 5]"
-          TopLeft="362.7999888738,465.866668843163">
+          TopLeft="390.79998776118,465.866668843163">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10611,7 +10636,7 @@ where [refTable].[ShipperID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 6]"
-          TopLeft="364.066655752394,547.733335702684">
+          TopLeft="392.066654639774,547.733335702684">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10623,6 +10648,78 @@ where [refTable].[ShipperID] = ?</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,33.4066669091121" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="243.2,41.6"
+          Id="Package\Tâche d'exécution de requêtes SQL"
+          TopLeft="17.9999992847443,54.0800004297893" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte]"
+          TopLeft="326.499987026056,49.7466668967137">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-65.2999877413118,25.1333335330755"
+              Start="0,0"
+              End="-57.7999877413118,25.1333335330755">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-28.6499938706559,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-28.6499938706559,0"
+                    Point2="-32.6499938706559,0"
+                    Point3="-32.6499938706559,4" />
+                  <mssgle:LineSegment
+                    End="-32.6499938706559,21.1333335330755" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-32.6499938706559,21.1333335330755"
+                    Point2="-32.6499938706559,25.1333335330755"
+                    Point3="-36.6499938706559,25.1333335330755" />
+                  <mssgle:LineSegment
+                    End="-57.7999877413118,25.1333335330755" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 7]"
+          TopLeft="261.199999284744,80.4800004297892">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="43.4666552755577,45.6533336198598"
+              Start="0,0"
+              End="35.9666552755577,45.6533336198598">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="14.3525877830133,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="14.3525877830133,0"
+                    Point2="18.3525877830133,0"
+                    Point3="18.3525877830133,4" />
+                  <mssgle:LineSegment
+                    End="18.3525877830133,41.6533336198598" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18.3525877830133,41.6533336198598"
+                    Point2="18.3525877830133,45.6533336198598"
+                    Point3="22.3525877830133,45.6533336198598" />
+                  <mssgle:LineSegment
+                    End="35.9666552755577,45.6533336198598" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10650,7 +10747,7 @@ where [refTable].[ShipperID] = ?</property>
         <NodeLayout
           Size="195.2,41.6"
           Id="Package\Importation dans FactSale\Recherche DimCustomer"
-          TopLeft="150.476184496804,473.980954403953" />
+          TopLeft="147.809517936101,486.460954503135" />
         <NodeLayout
           Size="185.6,41.6"
           Id="Package\Importation dans FactSale\Recherche DimProduct"
@@ -10676,13 +10773,13 @@ where [refTable].[ShipperID] = ?</property>
           Id="Package\Importation dans FactSale\Recherche DimEmployee"
           TopLeft="152.380946325877,367.695239291721" />
         <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\Importation dans FactSale\Colonne dérivée"
-          TopLeft="179.999992847443,884.419053884839" />
+          Size="264.8,41.6"
+          Id="Package\Importation dans FactSale\Calculs des prix et conversion des NULL"
+          TopLeft="121.999995152156,882.339053868309" />
         <NodeLayout
-          Size="208,41.6"
-          Id="Package\Importation dans FactSale\Conversion des dates NULL"
-          TopLeft="141.999994357427,196.982858314151" />
+          Size="180,41.6"
+          Id="Package\Importation dans FactSale\Conversion des NULL"
+          TopLeft="153.333327240414,197.676191652995" />
         <EdgeLayout
           Id="Package\Importation dans FactSale.Paths[Sortie de source OLE DB]"
           TopLeft="242.380946762978,60.1219049091036">
@@ -10706,31 +10803,31 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance5]"
-          TopLeft="254.047612330271,817.980955844455">
+          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance4]"
+          TopLeft="252.647613482627,817.980955844455">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,66.4380980403838"
+              EndConnector="0,64.3580980238536"
               Start="0,0"
-              End="0,58.9380980403838">
+              End="0,56.8580980238536">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,58.9380980403838" />
+                    End="0,56.8580980238536" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-91.67701171875,23.6643615201919,183.3540234375,11.609375"
+              BoundingBox="-91.67701171875,22.6243615119268,183.3540234375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance4]"
+          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance3]"
           TopLeft="251.01904135583,717.188572819483">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -10754,7 +10851,7 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance3]"
+          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance2]"
           TopLeft="250.542850898561,623.16190665896">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -10778,91 +10875,67 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance2]"
-          TopLeft="249.009517697683,515.580954403953">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,65.9809522550069"
-              Start="0,0"
-              End="0,58.4809522550069">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,58.4809522550069" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-91.67701171875,23.4357886275034,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance1]"
-          TopLeft="249.228565411341,409.295239291721">
+          TopLeft="247.676184417331,528.060954503135">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,64.6857151122321"
+              EndConnector="0,53.5009521558247"
               Start="0,0"
-              End="0,57.1857151122321">
+              End="0,46.0009521558247">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,57.1857151122321" />
+                    End="0,46.0009521558247" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-91.67701171875,22.7881700561161,183.3540234375,11.609375"
+              BoundingBox="-91.67701171875,17.1957885779124,183.3540234375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance]"
-          TopLeft="244.752374914336,147.580953223213">
+          TopLeft="243.41904135583,147.580953223213">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,49.4019050909384"
+              EndConnector="0,50.0952384297819"
               Start="0,0"
-              End="0,41.9019050909384">
+              End="0,42.5952384297819">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41.9019050909384" />
+                    End="0,42.5952384297819" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-91.67701171875,15.1462650454692,183.3540234375,11.609375"
+              BoundingBox="-91.67701171875,15.4929317148909,183.3540234375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée2]"
-          TopLeft="255.876185291533,926.019053884839">
+          TopLeft="254.476186443889,923.939053868309">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52.6476162453305"
+              EndConnector="0,54.7276162618614"
               Start="0,0"
-              End="0,45.1476162453305">
+              End="0,47.2276162618614">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,45.1476162453305" />
+                    End="0,47.2276162618614" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10895,24 +10968,48 @@ where [refTable].[ShipperID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée]"
-          TopLeft="247.28570938678,238.582858314151">
+          TopLeft="245.952375828274,239.276191652995">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41.3485708925146"
+              EndConnector="0,40.6552375536711"
               Start="0,0"
-              End="0,33.8485708925146">
+              End="0,33.1552375536711">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.8485708925146" />
+                    End="0,33.1552375536711" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance5]"
+          TopLeft="247.895232130989,409.295239291721">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,77.1657152114142"
+              Start="0,0"
+              End="0,69.6657152114142">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,69.6657152114142" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-91.67701171875,29.0281701057071,183.3540234375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
