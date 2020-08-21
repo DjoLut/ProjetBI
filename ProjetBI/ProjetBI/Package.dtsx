@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="136"
-  DTS:VersionGUID="{13564518-06D3-4564-8780-CE44710D8EA5}">
+  DTS:VersionBuild="146"
+  DTS:VersionGUID="{0AC27734-927C-44C8-A74B-849E31F18A4C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -22,6 +22,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{A5C191C4-549E-4CC4-A3B2-0B15728440FC}"
       DTS:ObjectName="Fichier dates">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier dates.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -31,7 +33,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ProjetBI\Fichier dates.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier dates.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -50,6 +52,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{CEF50C68-2A8D-4660-B179-392701188A4A}"
       DTS:ObjectName="Fichier erreurs Customer">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs Customer.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -176,6 +180,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{81CBD7F1-45C3-4379-B5AA-14808EFFDAEA}"
       DTS:ObjectName="Fichier erreurs Date">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs Date.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -341,6 +347,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{9BBB0022-A435-4F3E-9A36-85FA8843C010}"
       DTS:ObjectName="Fichier erreurs Employee">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs Employee.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -499,6 +507,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{4A186767-D81A-4A23-A266-2005281A0C2E}"
       DTS:ObjectName="Fichier erreurs FactSale - Customer">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs FactSale - Customer.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -673,6 +683,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{AC2153D4-E046-47EA-9974-ED189DAF5085}"
       DTS:ObjectName="Fichier erreurs FactSale - Employee">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs FactSale - Employee.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -839,6 +851,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{97457910-F96A-40AD-A16E-05ABD736C358}"
       DTS:ObjectName="Fichier erreurs FactSale - Order">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs FactSale - Order.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -924,6 +938,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{21698C59-6254-4A39-82F1-B48E377AD62F}"
       DTS:ObjectName="Fichier erreurs FactSale - OrderDetail">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs FactSale - OrderDetail.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -1009,6 +1025,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{E51AF79E-F4DD-4137-9183-37F0F08277DA}"
       DTS:ObjectName="Fichier erreurs FactSale - Product">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs FactSale - Product.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -1191,6 +1209,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{206978D3-D789-4695-A3F9-B1773E4DC729}"
       DTS:ObjectName="Fichier erreurs FactSale - Shipper">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs FactSale - Shipper.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -1397,6 +1417,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{BF624E80-7305-4C04-9C15-B0F91F0FCBCA}"
       DTS:ObjectName="Fichier erreurs FactSale - Supplier">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs FactSale - Supplier.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -1595,6 +1617,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{F0789F36-5627-4650-AD88-1A23FD9C8588}"
       DTS:ObjectName="Fichier erreurs Product">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs Product.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -1613,7 +1637,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Origin"
-              DTS:DTSID="{7F2C7710-AB3E-4407-AB5E-E7FDBAD4F09C}"
+              DTS:DTSID="{FAD633CC-8627-47F5-A736-3EA5BA5107CB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1621,7 +1645,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{BAF08999-5BE8-4340-824D-2AA6ACB35A47}"
+              DTS:DTSID="{D8800072-BF5C-4D85-9259-101260BF5B62}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1630,7 +1654,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductName"
-              DTS:DTSID="{90D72375-F7A8-4714-8334-09217DD8FA2C}"
+              DTS:DTSID="{8591E7DE-67FA-4F00-927A-189A017CB2B8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1638,7 +1662,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SupplierID"
-              DTS:DTSID="{66932EF4-0166-4BCC-B4A7-062F6951E3A8}"
+              DTS:DTSID="{87E9AFDC-4D44-43B0-B184-06A0C2A90CB5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1646,7 +1670,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="CategoryID"
-              DTS:DTSID="{7338A740-AF60-4ECA-84AC-74F09F188C39}"
+              DTS:DTSID="{9828CE39-2041-49D6-97F9-4CFA6015E073}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1654,7 +1678,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{4AA246EA-FC1B-4485-A902-DCDE93C62FB0}"
+              DTS:DTSID="{ABCCCEC1-B3C0-4726-AE57-8799A51D2D3F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1662,7 +1686,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="ReorderLevel"
-              DTS:DTSID="{3FA98B1A-8391-4C00-8EED-C81C697D1E6D}"
+              DTS:DTSID="{2259B08A-27F6-4960-9F89-9345518B25FC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1670,7 +1694,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="Discontinued"
-              DTS:DTSID="{EC66F0CD-2916-4DC4-B914-F96F016A20B2}"
+              DTS:DTSID="{BB671AE3-3C75-4299-B4FD-E2C454C5B66C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1678,7 +1702,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{FDBFD632-577C-4FB0-AC65-C73AB8C02DC6}"
+              DTS:DTSID="{CAF0389F-F3DB-4D41-BFB7-2D25E83EBD78}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1686,7 +1710,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{8FFFA144-E94B-407B-90CA-82F7D59A0959}"
+              DTS:DTSID="{98C9DFA9-9A60-4B41-8F1B-B1F5012342BF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1695,7 +1719,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="QuantityPerUnit"
-              DTS:DTSID="{D86DBE16-55D1-4642-960D-CAEE77FCE9A0}"
+              DTS:DTSID="{3858B61B-DFC1-47D2-9E34-0D362BF377CE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1703,7 +1727,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitsInStock"
-              DTS:DTSID="{AA82F09D-1DF4-4BB7-A79F-03EFAD0F7657}"
+              DTS:DTSID="{6CB3A0A6-1705-421D-BC7C-5E60F7E81FED}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1711,7 +1735,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitsOnOrder"
-              DTS:DTSID="{E1CAB105-5EED-45F7-810C-2AB5FD16FCFF}"
+              DTS:DTSID="{536631D7-F6DC-4CA4-838E-ED78F76F75DF}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1722,6 +1746,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{83115714-D0C9-448A-9F25-6C1513F330BE}"
       DTS:ObjectName="Fichier erreurs Shipper">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs Shipper.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -1894,6 +1920,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{C5D84659-46D3-4B3A-9435-33BB586CB4BD}"
       DTS:ObjectName="Fichier erreurs Supplier">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs Supplier.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -2015,12 +2043,12 @@
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=1920_ProjetBI_etu32766_etu25417;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{FE821338-AA3A-4544-A2EC-2884144CA24B}vm-sql2.iesn.be.1920_ProjetBI_etu32766_etu25417.1920_EtuGenerique;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="Pn7YhzGD0G8="
-            IV="8+uzMi3mCqwwzvyg/iRrJQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="aXgRWXIENg8="
+            IV="pXopFkf6J8iDBe7JWHjE9g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>8+uzMi3mCqwwzvyg/iRrJUH2Azu9bgwBiUA/3sKsIjSjCkCzKp7GRY3b61C8NDwlTJcc/L2LrvHOSUYsSvAxg+fCxCSvsOXiCTIR4BZqrU0ocp++PSVoSQn/e1JAb5ck+l3zfYy3y530w3EieV9Hj0Q488c87Bh1MUEZzcRqjw7Vmt3dEZ6gIXimkE3xuJth</CipherValue>
+              <CipherValue>pXopFkf6J8iDBe7JWHjE9vG12SmBV/xseJdICzSUnDROfsJXXhO6VxCap7lYrXsBlg7f75qNqJE/yx3ObBon4VZa2A9GSAM5H8Mtbi+XNbIpUEWzrLx3SCNiGC0PpA2gYCdbGsbFuUxwQEBoZLEQXctHllIdBIqKRds91pIrvNKuZ5+/2jBMriKZUNr3B4yX</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -2036,12 +2064,12 @@
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{5667FD03-CD87-4C78-8149-7E1BF48B83FD}vm-sql2.iesn.be.Foodies997.1920_EtuGenerique;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="WRwEsPGiKJQ="
-            IV="zarq0qyE0pNis1AQP63Fgg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="iwIonSyfnH0="
+            IV="DCDTCFTn5otGWJ70eLwljw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>zarq0qyE0pNis1AQP63FguTgYDdhUCzJ3wMLJbNJF/JkzvhGe8VwxKCVpfL0MCAQWoEcunxfuyJwFYa1TxDDO91X0UH/R9KoL20AQPvCmGYV6Fw8cWATvGEOaxoa63VDUJgEat6QrTmKtIClnMYe3PaAOdr/iKgKTJpMtqedWXzeEEn5NcD0/WEmZzxkgO0a</CipherValue>
+              <CipherValue>DCDTCFTn5otGWJ70eLwlj99Cn75LdZuR2txheXmR7UdgD9mlljKzc7oC1lP02c217Qfcl5fvx6P0R5uve2/LLAjj0kCjp4NYlm111tVmJqCwj5pE3N0/s+dy5H4GioHzBX7eijfZave4sswLAJhN+MhVUXF4k81luHuU5MOFiAQOxarNvTL1Els/CyjphRte</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -2057,12 +2085,12 @@
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Intent=READWRITE;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="hHJRLtRHYfk="
-            IV="QGxUp2SgxoptCMW0GRwyCg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="drQgZ0Codl8="
+            IV="ana9l0WEpgmTPVoog5b/jQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>QGxUp2SgxoptCMW0GRwyCtFcqetLaDEaj7QqqJQrAEIzWngiOHSaWyjBxp/aj8kOZVYZzkacWSGyDqXKuw9VJ4qsWqRnNRE2r8pfvoiZ5ZItVUCa9WDjHI/eAarDa+w9raw0ht6sa0dmAxFD/MDT8ev9XItzRIcMsdCXr6BWEZUMT6CZUk9WAbX5norBfyu0</CipherValue>
+              <CipherValue>ana9l0WEpgmTPVoog5b/jSPbdsruFhkJfMpU3h6WxzA7cu5Cxz9JtcMcGaS1wfRTJfky7GUH8iMc/6Lw6TaccLeCpsFovb5yGLs0UHkeq+TItqOu9P+AmgE2W2o9+AtWx4q4BkrcazVcIX+VN1yL7dWSBTwOIp0HJDQX+ogRsoG9tW69CRosDCa9EIg4/pPx</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -2070,6 +2098,17 @@
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:Description="File path for the errors flat files"
+      DTS:DTSID="{1DE4E8CB-A509-4BBD-AB9A-65F51A200C76}"
+      DTS:ObjectName="ErrorPath"
+      DTS:Required="True">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI</DTS:Property>
+    </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
@@ -5502,12 +5541,12 @@ where [refTable].[OrderID] = ?</property>
           </components>
           <paths>
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche5]"
+              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche]"
               endId="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Shipper.Inputs[Entrée de destination de fichier plat]"
               name="Sortie d'erreur de recherche"
               startId="Package\Importation dans FactSale\Recherche DimShipper.Outputs[Sortie d'erreur de recherche]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche3]"
+              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche1]"
               endId="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Product.Inputs[Entrée de destination de fichier plat]"
               name="Sortie d'erreur de recherche"
               startId="Package\Importation dans FactSale\Recherche DimProduct.Outputs[Sortie d'erreur de recherche]" />
@@ -5517,17 +5556,17 @@ where [refTable].[OrderID] = ?</property>
               name="Sortie d'erreur de recherche"
               startId="Package\Importation dans FactSale\Recherche DimCustomer.Outputs[Sortie d'erreur de recherche]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche1]"
+              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche3]"
               endId="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Employee.Inputs[Entrée de destination de fichier plat]"
               name="Sortie d'erreur de recherche"
               startId="Package\Importation dans FactSale\Recherche DimEmployee.Outputs[Sortie d'erreur de recherche]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche]"
+              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche4]"
               endId="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Order.Inputs[Entrée de destination de fichier plat]"
               name="Sortie d'erreur de recherche"
               startId="Package\Importation dans FactSale\Recherche Orders.Outputs[Sortie d'erreur de recherche]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche4]"
+              refId="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche5]"
               endId="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Supplier.Inputs[Entrée de destination de fichier plat]"
               name="Sortie d'erreur de recherche"
               startId="Package\Importation dans FactSale\Recherche DimSupplier.Outputs[Sortie d'erreur de recherche]" />
@@ -5537,37 +5576,37 @@ where [refTable].[OrderID] = ?</property>
               name="Sortie d'erreur de source OLE DB"
               startId="Package\Importation dans FactSale\Source Foodies997 - OrdersDetails.Outputs[Sortie d'erreur de source OLE DB]" />
             <path
+              refId="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée2]"
+              endId="Package\Importation dans FactSale\Recherche DimEmployee.Inputs[Entrée de recherche]"
+              name="Sortie de colonne dérivée"
+              startId="Package\Importation dans FactSale\Conversion des dates au format YYYYMMDD.Outputs[Sortie de colonne dérivée]" />
+            <path
+              refId="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée1]"
+              endId="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de colonne dérivée"
+              startId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie de colonne dérivée]" />
+            <path
               refId="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée]"
               endId="Package\Importation dans FactSale\Conversion des dates au format YYYYMMDD.Inputs[Entrée de colonne dérivée]"
               name="Sortie de colonne dérivée"
               startId="Package\Importation dans FactSale\Conversion des NULL.Outputs[Sortie de colonne dérivée]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée2]"
-              endId="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale.Inputs[Entrée de destination OLE DB]"
-              name="Sortie de colonne dérivée"
-              startId="Package\Importation dans FactSale\Calculs des prix et conversion des NULL.Outputs[Sortie de colonne dérivée]" />
-            <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée1]"
-              endId="Package\Importation dans FactSale\Recherche DimEmployee.Inputs[Entrée de recherche]"
-              name="Sortie de colonne dérivée"
-              startId="Package\Importation dans FactSale\Conversion des dates au format YYYYMMDD.Outputs[Sortie de colonne dérivée]" />
-            <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance3]"
+              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance]"
               endId="Package\Importation dans FactSale\Recherche DimShipper.Inputs[Entrée de recherche]"
               name="Sortie de recherche avec correspondance"
               startId="Package\Importation dans FactSale\Recherche DimSupplier.Outputs[Sortie de recherche avec correspondance]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance2]"
+              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance1]"
               endId="Package\Importation dans FactSale\Recherche DimSupplier.Inputs[Entrée de recherche]"
               name="Sortie de recherche avec correspondance"
               startId="Package\Importation dans FactSale\Recherche DimProduct.Outputs[Sortie de recherche avec correspondance]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance1]"
+              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance2]"
               endId="Package\Importation dans FactSale\Recherche DimProduct.Inputs[Entrée de recherche]"
               name="Sortie de recherche avec correspondance"
               startId="Package\Importation dans FactSale\Recherche DimCustomer.Outputs[Sortie de recherche avec correspondance]" />
             <path
-              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance]"
+              refId="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance3]"
               endId="Package\Importation dans FactSale\Conversion des NULL.Inputs[Entrée de colonne dérivée]"
               name="Sortie de recherche avec correspondance"
               startId="Package\Importation dans FactSale\Recherche Orders.Outputs[Sortie de recherche avec correspondance]" />
@@ -13124,7 +13163,7 @@ where [refTable].[ShipperID] = ?</property>
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Remplir DimProduct"
-          TopLeft="304.666654560302,105.333334049649" />
+          TopLeft="304.666654560302,106.200000723203" />
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Remplir DimShipper"
@@ -13177,18 +13216,18 @@ where [refTable].[ShipperID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 1]"
-          TopLeft="393.19998788039,146.933334049649">
+          TopLeft="393.199987880389,147.800000723203">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41.65333411577"
+              EndConnector="0,40.7866674422157"
               Start="0,0"
-              End="0,34.15333411577">
+              End="0,33.2866674422157">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.15333411577" />
+                    End="0,33.2866674422157" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13309,30 +13348,30 @@ where [refTable].[ShipperID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte 7]"
-          TopLeft="261.199999284744,80.4800004297892">
+          TopLeft="261.199999284744,80.4800004297893">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="43.4666552755577,45.6533336198598"
+              EndConnector="43.4666552755576,46.520000293414"
               Start="0,0"
-              End="35.9666552755577,45.6533336198598">
+              End="35.9666552755576,46.520000293414">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="14.3525877830133,0" />
+                    End="14.3525877830132,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="14.3525877830133,0"
-                    Point2="18.3525877830133,0"
-                    Point3="18.3525877830133,4" />
+                    Point1="14.3525877830132,0"
+                    Point2="18.3525877830132,0"
+                    Point3="18.3525877830132,4" />
                   <mssgle:LineSegment
-                    End="18.3525877830133,41.6533336198598" />
+                    End="18.3525877830132,42.520000293414" />
                   <mssgle:CubicBezierSegment
-                    Point1="18.3525877830133,41.6533336198598"
-                    Point2="18.3525877830133,45.6533336198598"
-                    Point3="22.3525877830133,45.6533336198598" />
+                    Point1="18.3525877830132,42.520000293414"
+                    Point2="18.3525877830132,46.520000293414"
+                    Point3="22.3525877830132,46.520000293414" />
                   <mssgle:LineSegment
-                    End="35.9666552755577,45.6533336198598" />
+                    End="35.9666552755576,46.520000293414" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13350,49 +13389,99 @@ where [refTable].[ShipperID] = ?</property>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="288,41.6"
-          Id="Package\Importation dans FactSale\Conversion des dates au format YYYYMMDD"
-          TopLeft="104.571424416134,279.931429206666" />
-        <NodeLayout
-          Size="195.2,41.6"
-          Id="Package\Importation dans FactSale\Recherche DimCustomer"
-          TopLeft="147.809517936101,486.460954503135" />
-        <NodeLayout
-          Size="185.6,41.6"
-          Id="Package\Importation dans FactSale\Recherche DimProduct"
-          TopLeft="157.142850898561,581.56190665896" />
-        <NodeLayout
           Size="240.8,41.6"
           Id="Package\Importation dans FactSale\Source Foodies997 - OrdersDetails"
           TopLeft="120.857138054712,18.5219049091036" />
         <NodeLayout
-          Size="185.6,41.6"
-          Id="Package\Importation dans FactSale\Recherche DimShipper"
-          TopLeft="158.095231813098,776.380955844455" />
+          Size="180,41.6"
+          Id="Package\Importation dans FactSale\Conversion des NULL"
+          TopLeft="153.333327240414,197.676191652995" />
+        <NodeLayout
+          Size="370.4,41.6"
+          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Employee"
+          TopLeft="570.833310650456,364.000002892812" />
+        <NodeLayout
+          Size="362.4,41.6"
+          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Supplier"
+          TopLeft="578.333310352432,674.600003244082" />
         <NodeLayout
           Size="196,41.6"
           Id="Package\Importation dans FactSale\Recherche DimEmployee"
           TopLeft="152.380946325877,367.695239291721" />
         <NodeLayout
+          Size="368.8,41.6"
+          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Customer"
+          TopLeft="579.999976952872,492.266670578851" />
+        <NodeLayout
+          Size="377.6,41.6"
+          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - OrderDetail"
+          TopLeft="565.833310849138,14.7333334504233" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Importation dans FactSale\Recherche DimProduct"
+          TopLeft="157.142850898561,581.56190665896" />
+        <NodeLayout
           Size="163.2,41.6"
           Id="Package\Importation dans FactSale\Recherche Orders"
           TopLeft="161.904755471245,105.980953223213" />
         <NodeLayout
-          Size="188,41.6"
-          Id="Package\Importation dans FactSale\Recherche DimSupplier"
-          TopLeft="157.142850898561,675.588572819483" />
+          Size="360,41.6"
+          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Shipper"
+          TopLeft="574.999977151554,780.333337417709" />
         <NodeLayout
-          Size="264.8,41.6"
-          Id="Package\Importation dans FactSale\Calculs des prix et conversion des NULL"
-          TopLeft="121.999995152156,882.339053868309" />
+          Size="288,41.6"
+          Id="Package\Importation dans FactSale\Conversion des dates au format YYYYMMDD"
+          TopLeft="104.571424416134,279.931429206666" />
         <NodeLayout
           Size="347.2,41.6"
           Id="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale"
           TopLeft="80.9523777356223,978.66667013017" />
         <NodeLayout
-          Size="180,41.6"
-          Id="Package\Importation dans FactSale\Conversion des NULL"
-          TopLeft="153.333327240414,197.676191652995" />
+          Size="188,41.6"
+          Id="Package\Importation dans FactSale\Recherche DimSupplier"
+          TopLeft="157.142850898561,675.588572819483" />
+        <NodeLayout
+          Size="360,41.6"
+          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Product"
+          TopLeft="578.333310352432,584.133337975608" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Importation dans FactSale\Recherche DimShipper"
+          TopLeft="158.095231813098,776.380955844455" />
+        <NodeLayout
+          Size="195.2,41.6"
+          Id="Package\Importation dans FactSale\Recherche DimCustomer"
+          TopLeft="147.809517936101,486.460954503135" />
+        <NodeLayout
+          Size="264.8,41.6"
+          Id="Package\Importation dans FactSale\Calculs des prix et conversion des NULL"
+          TopLeft="121.999995152156,882.339053868309" />
+        <NodeLayout
+          Size="350.4,41.6"
+          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Order"
+          TopLeft="567.433317206966,110.933334214952" />
+        <EdgeLayout
+          Id="Package\Importation dans FactSale.Paths[Sortie de source OLE DB]"
+          TopLeft="242.380946762978,60.1219049091036">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45.8590483141097"
+              Start="0,0"
+              End="0,38.3590483141097">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.3590483141097" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance5]"
           TopLeft="247.895232130989,409.295239291721">
@@ -13443,78 +13532,6 @@ where [refTable].[ShipperID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance3]"
-          TopLeft="251.01904135583,717.188572819483">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,59.1923830249719"
-              Start="0,0"
-              End="0,51.6923830249719">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,51.6923830249719" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-91.67701171875,20.041504012486,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance2]"
-          TopLeft="250.542850898561,623.16190665896">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52.426666160523"
-              Start="0,0"
-              End="0,44.926666160523">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.926666160523" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-91.67701171875,16.6586455802615,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance1]"
-          TopLeft="247.676184417331,528.060954503135">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,53.5009521558247"
-              Start="0,0"
-              End="0,46.0009521558247">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,46.0009521558247" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-91.67701171875,17.1957885779123,183.3540234375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance]"
           TopLeft="243.41904135583,147.580953223213">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -13538,29 +13555,79 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée2]"
-          TopLeft="254.476186443889,923.939053868309">
+          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance2]"
+          TopLeft="247.676184417331,528.060954503135">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,54.7276162618614"
+              EndConnector="0,53.5009521558247"
               Start="0,0"
-              End="0,47.2276162618614">
+              End="0,46.0009521558247">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,47.2276162618614" />
+                    End="0,46.0009521558247" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-91.67701171875,17.1957885779123,183.3540234375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée1]"
+          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance1]"
+          TopLeft="250.542850898561,623.16190665896">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52.426666160523"
+              Start="0,0"
+              End="0,44.926666160523">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.926666160523" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-91.67701171875,16.6586455802615,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Importation dans FactSale.Paths[Sortie de recherche avec correspondance]"
+          TopLeft="251.01904135583,717.188572819483">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.1923830249719"
+              Start="0,0"
+              End="0,51.6923830249719">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,51.6923830249719" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-91.67701171875,20.041504012486,183.3540234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée2]"
           TopLeft="249.476185371005,321.531429206666">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -13573,6 +13640,28 @@ where [refTable].[ShipperID] = ?</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,38.6638100850546" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Importation dans FactSale.Paths[Sortie de colonne dérivée1]"
+          TopLeft="254.476186443889,923.939053868309">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,54.7276162618614"
+              Start="0,0"
+              End="0,47.2276162618614">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.2276162618614" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13604,32 +13693,6 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie de source OLE DB]"
-          TopLeft="242.380946762978,60.1219049091036">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,45.8590483141097"
-              Start="0,0"
-              End="0,38.3590483141097">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.3590483141097" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="377.6,41.6"
-          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - OrderDetail"
-          TopLeft="565.833310849138,14.7333334504233" />
-        <EdgeLayout
           Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de source OLE DB]"
           TopLeft="361.657138054712,37.4276191797635">
           <EdgeLayout.Curve>
@@ -13653,12 +13716,32 @@ where [refTable].[ShipperID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="350.4,41.6"
-          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Order"
-          TopLeft="567.433317206966,110.933334214952" />
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche]"
+          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche5]"
+          TopLeft="345.142850898561,695.894288031783">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="233.190459453871,0"
+              Start="0,0"
+              End="225.690459453871,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="225.690459453871,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="50.3782180081856,5,124.9340234375,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche4]"
           TopLeft="325.104755471245,129.257143719083">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -13681,12 +13764,8 @@ where [refTable].[ShipperID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="370.4,41.6"
-          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Employee"
-          TopLeft="570.833310650456,364.000002892812" />
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche1]"
+          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche3]"
           TopLeft="348.380946325877,386.647621092267">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -13709,10 +13788,6 @@ where [refTable].[ShipperID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="368.8,41.6"
-          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Customer"
-          TopLeft="579.999976952872,492.266670578851" />
         <EdgeLayout
           Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche2]"
           TopLeft="343.009517936101,510.163812540993">
@@ -13737,12 +13812,8 @@ where [refTable].[ShipperID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="360,41.6"
-          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Product"
-          TopLeft="578.333310352432,584.133337975608" />
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche3]"
+          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche1]"
           TopLeft="342.742850898561,603.647622317284">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -13765,40 +13836,8 @@ where [refTable].[ShipperID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="362.4,41.6"
-          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Supplier"
-          TopLeft="578.333310352432,674.600003244082" />
         <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche4]"
-          TopLeft="345.142850898561,695.894288031783">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="233.190459453871,0"
-              Start="0,0"
-              End="225.690459453871,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="225.690459453871,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="50.3782180081856,5,124.9340234375,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="360,41.6"
-          Id="Package\Importation dans FactSale\Destination de fichier plat - Fichier erreurs FactSale - Shipper"
-          TopLeft="574.999977151554,780.333337417709" />
-        <EdgeLayout
-          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche5]"
+          Id="Package\Importation dans FactSale.Paths[Sortie d'erreur de recherche]"
           TopLeft="343.695231813098,799.157146631082">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -13825,7 +13864,20 @@ where [refTable].[ShipperID] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Importation dans FactSale\Recherche DimCustomer">
+    design-time-name="Package\Importation dans FactSale\Source Foodies997 - OrdersDetails">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Importation dans FactSale\Recherche DimEmployee">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -13835,7 +13887,7 @@ where [refTable].[ShipperID] = ?</property>
       <Property>
         <Name>UsedTableName</Name>
         <Value
-          type="q3:string">[dbo].[DimCustomer]</Value>
+          type="q3:string">[dbo].[DimEmployee]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
@@ -13871,65 +13923,6 @@ where [refTable].[ShipperID] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Importation dans FactSale\Source Foodies997 - OrdersDetails">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Importation dans FactSale\Recherche DimShipper">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimShipper]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Importation dans FactSale\Recherche DimEmployee">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimEmployee]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Importation dans FactSale\Recherche Orders">
     <Properties>
       <Property>
@@ -13949,6 +13942,19 @@ where [refTable].[ShipperID] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -13976,15 +13982,48 @@ where [refTable].[ShipperID] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Importation dans FactSale\Destination 1920_ProjetBI_etu32766_etu25417 - FactSale">
+    design-time-name="Package\Importation dans FactSale\Recherche DimShipper">
     <Properties>
       <Property>
-        <Name>DataSourceViewID</Name>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimShipper]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q2:string">Table</Value>
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Importation dans FactSale\Recherche DimCustomer">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimCustomer]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -14138,7 +14177,7 @@ where [refTable].[ShipperID] = ?</property>
     design-time-name="Package\Remplir DimDate">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="152,41.6"
           Id="Package\Remplir DimDate\Source OLE DB"
@@ -14170,7 +14209,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14192,7 +14233,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14295,9 +14338,7 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14319,9 +14360,7 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14474,7 +14513,7 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="70.4383313081291,33.1504832713755,147.15296875,9.7490234375"
+              BoundingBox="70.438331308129,33.1504832713755,147.15296875,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -14546,7 +14585,7 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="40.9293014140179,1,124.9340234375,9.7490234375"
+              BoundingBox="40.929301414018,1,124.9340234375,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -14581,9 +14620,7 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14605,9 +14642,7 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14849,7 +14884,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14883,7 +14920,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -14973,7 +15012,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15007,7 +15048,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
