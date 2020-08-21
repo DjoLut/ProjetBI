@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="146"
-  DTS:VersionGUID="{0AC27734-927C-44C8-A74B-849E31F18A4C}">
+  DTS:VersionBuild="147"
+  DTS:VersionGUID="{98E21F44-8160-466F-A6F0-DA3D579CACE3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -33,7 +33,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier dates.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier dates.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -63,7 +63,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs Customer.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs Customer.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -191,7 +191,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs Date.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs Date.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -358,7 +358,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs Employee.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs Employee.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -518,7 +518,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs FactSale - Customer.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs FactSale - Customer.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -694,7 +694,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs FactSale - Employee.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs FactSale - Employee.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -862,7 +862,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs FactSale - Order.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs FactSale - Order.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -949,7 +949,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs FactSale - OrderDetail.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs FactSale - OrderDetail.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1036,7 +1036,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs FactSale - Product.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs FactSale - Product.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1220,7 +1220,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs FactSale - Shipper.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs FactSale - Shipper.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1428,7 +1428,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs FactSale - Supplier.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs FactSale - Supplier.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1618,7 +1618,7 @@
       DTS:DTSID="{F0789F36-5627-4650-AD88-1A23FD9C8588}"
       DTS:ObjectName="Fichier erreurs Product">
       <DTS:PropertyExpression
-        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\\Fichier erreurs Product.txt"</DTS:PropertyExpression>
+        DTS:Name="ConnectionString">@[$Package::ErrorPath] + "\Fichier erreurs Product.txt"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -1628,7 +1628,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs Product.txt">
+          DTS:ConnectionString="Fichier erreurs Product2.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1757,7 +1757,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs Shipper.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs Shipper.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1931,7 +1931,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\Fichier erreurs Supplier.txt">
+          DTS:ConnectionString="D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles\Fichier erreurs Supplier.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2043,12 +2043,12 @@
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=1920_ProjetBI_etu32766_etu25417;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{FE821338-AA3A-4544-A2EC-2884144CA24B}vm-sql2.iesn.be.1920_ProjetBI_etu32766_etu25417.1920_EtuGenerique;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="aXgRWXIENg8="
-            IV="pXopFkf6J8iDBe7JWHjE9g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="AM0RBhc8ZF8="
+            IV="WHnxv4YLPejHGmwu+w8OrA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>pXopFkf6J8iDBe7JWHjE9vG12SmBV/xseJdICzSUnDROfsJXXhO6VxCap7lYrXsBlg7f75qNqJE/yx3ObBon4VZa2A9GSAM5H8Mtbi+XNbIpUEWzrLx3SCNiGC0PpA2gYCdbGsbFuUxwQEBoZLEQXctHllIdBIqKRds91pIrvNKuZ5+/2jBMriKZUNr3B4yX</CipherValue>
+              <CipherValue>WHnxv4YLPejHGmwu+w8OrEGPvQTPGESXMXCzjqh3X3BWv6t1ICJ746pvUGKHq1YUyH7gIt03f4lY2Qz8V0gsv2Zd289KtHGRlyjqT16DdEuVMJEto++gNsqx1e4mn5xlBlDHcYVhb9xjTveV/5brnQQyM6NGxCKqlCbW5UThkDTl0xSQeKJZePfRpbAN4E9N</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -2064,12 +2064,12 @@
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{5667FD03-CD87-4C78-8149-7E1BF48B83FD}vm-sql2.iesn.be.Foodies997.1920_EtuGenerique;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="iwIonSyfnH0="
-            IV="DCDTCFTn5otGWJ70eLwljw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="fz1dSTJnNQI="
+            IV="Blj2sr2DALkk3nZCsY692A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>DCDTCFTn5otGWJ70eLwlj99Cn75LdZuR2txheXmR7UdgD9mlljKzc7oC1lP02c217Qfcl5fvx6P0R5uve2/LLAjj0kCjp4NYlm111tVmJqCwj5pE3N0/s+dy5H4GioHzBX7eijfZave4sswLAJhN+MhVUXF4k81luHuU5MOFiAQOxarNvTL1Els/CyjphRte</CipherValue>
+              <CipherValue>Blj2sr2DALkk3nZCsY692Lp0nXvpdPA5QVTWB3foPZCYfMM0Sv6OjY+66KO9WoOZA50fbO86BND1nT8FvXi5BQVT1t5DKhBRbrwZ8dOcwZJC1Cxi3/QPMVNAXBtDHaYllM7/IyoFNWx0sggw83Q8t/oBdXqsSJBnKHf6gnBXqbSIsm1jhObnIClTCMTnsaJ/</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -2085,12 +2085,12 @@
           DTS:ConnectionString="Data Source=vm-sql2.iesn.be;User ID=1920_EtuGenerique;Initial Catalog=Foodies997;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Intent=READWRITE;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="drQgZ0Codl8="
-            IV="ana9l0WEpgmTPVoog5b/jQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="1q+KG6MhSlM="
+            IV="Mf2xwDzXNVRP3R97UzM+BA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>ana9l0WEpgmTPVoog5b/jSPbdsruFhkJfMpU3h6WxzA7cu5Cxz9JtcMcGaS1wfRTJfky7GUH8iMc/6Lw6TaccLeCpsFovb5yGLs0UHkeq+TItqOu9P+AmgE2W2o9+AtWx4q4BkrcazVcIX+VN1yL7dWSBTwOIp0HJDQX+ogRsoG9tW69CRosDCa9EIg4/pPx</CipherValue>
+              <CipherValue>Mf2xwDzXNVRP3R97UzM+BJl5F7M7oDkfNYHLm5RUkXx4R5dUrJrMnDHaAvJIkNTYxEoXarh+qNfZ2NWn6QpJKgS/ILnSHEKYRuxR1vpsi2n7LxydiDz27bNbLGpQ/mSCdnDGB/uwYB9wdhkz6PkLg8zv6Vk20mD0Ka2ealKeWw+cjSFmHktqhj2q7HljBA6a</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -2107,7 +2107,7 @@
       DTS:Required="True">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI</DTS:Property>
+        DTS:Name="ParameterValue">D:\Ecole\IG1920\3IG\IE-IG-B3-NBID3-BI_and_Data_Analytics\Scholtes\Projet\ProjetBI_LutgenPhilipin\ProjetBI\ErrorFiles</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
