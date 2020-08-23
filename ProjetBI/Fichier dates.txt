@@ -1,1 +1,0 @@
-DATE,Id,DayNumberOfWeek,DayNameOfWeek_EN,DayNameOfWeek_FR,DayNumberOfMonth,DayNumberOfYear,WeekNumberOfYear,MonthName_EN,MonthName_FR,MonthNumberOfYear,Year_,ErrorCode,ErrorColumn
